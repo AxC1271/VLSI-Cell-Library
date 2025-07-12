@@ -4,8 +4,6 @@ Welcome! This repository showcases my hands-on exploration of CMOS chip design u
 
 This repo is my personal initiative to bridge that gap. It’s both a portfolio of what I’ve built and a resource for fellow students or engineers curious about the chip design process. My goal is to keep each README informative and approachable—without being overly technical—for audiences ranging from ECSE students to prospective employers.
 
----
-
 ## 🔧 Toolchain Overview
 
 All tools were installed via `apt-get` on Ubuntu. Feel free to contact me at [achen5291@gmail.com](mailto:achen5291@gmail.com) for setup help.
