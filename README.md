@@ -24,5 +24,5 @@ Performs SPICE-level simulations to verify circuit behavior (timing, voltage lev
 # Projects So Far
 
 ### 1. CMOS Inverter
-- Designed and simulated a CMOS inverter using Xschem, Magic, and ngspice.
+- Designed and simulated a CMOS inverter using Magic and ngspice.
 - Verified with LVS using netgen.
