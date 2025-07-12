@@ -50,6 +50,8 @@ The inverter demonstrates standard logic behavior:
 - Low input → high output
 - High input → low output
 
+The blue waveform is the pulse input whilst the red waveform is the output, which is acting as expected.
+
 ---
 
 ### 🧱 Layout (Magic VLSI)
