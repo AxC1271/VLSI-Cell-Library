@@ -22,3 +22,6 @@ As for the specific transistor model I am using, it's on the website <a>http://w
 # Projects So Far
 
 ## 1. CMOS Inverter
+- Designed and simulated a CMOS inverter using Xschem, Magic, and ngspice.
+- Verified with LVS using netgen.
+- ![Inverter Layout](CMOSInverter/CMOSInverterLayout.png)
