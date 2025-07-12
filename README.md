@@ -4,24 +4,24 @@ Hi there! Welcome to my repository on VLSI, where I explore chip design, layout,
 # Questions about my Tools
 All of the following tools were installed on my Ubuntu VM using apt-get install commands. If you have any personal questions about setting up please contact me at achen5291@gmail.com as I would love to help out and spread my passion for chip design.
 
-## Xschem
+## 1. Xschem
 This is the schematic software that I use to draw out transistor networks and often provides me the visual picture that I need to see what circuit I am designing/testing. 
 
-## Magic VLSI Layout
+## 2. Magic VLSI Layout
 Magic is the physical layout tool where you put your n-diffusion layers, p-diffusion layers, polysilicon, etc. to form your MOSFETs. Magic also provides a command prompt to convert your layout to a spice netlist.
 
-## netgen
+## 3. netgen
 For those unfamiliar, netgen does an LVS check (layout vs. schematic) to ensure that the physical layout on Magic models exactly what the intended schematic is meant to do. This is just a safety check to ensure that you don't produce faulty chips from your layout.
 
-## ngspice
+## 4. ngspice
 ngspice is used to simulate the spice netlist from Magic using a spice directive. 
 
-## Technology Node
+## 5. Technology Node
 As for the specific transistor model I am using, it's on the website <a>http://www.opencircuitdesign.com/magic//</a> and the model I am using currently is the 2002a (although this may change to the sky130A pdk in the future). 
 
 # Projects So Far
 
-## 1. CMOS Inverter
+### 1. CMOS Inverter
 - Designed and simulated a CMOS inverter using Xschem, Magic, and ngspice.
 - Verified with LVS using netgen.
 - ![Inverter Layout](CMOSInverter/CMOSInverterLayout.png)
