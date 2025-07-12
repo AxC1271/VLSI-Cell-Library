@@ -94,6 +94,20 @@ The inverter behaves as expected — producing a clean logic inversion with mini
 
 ---
 
+### ✅ Takeaways
+
+Demonstrates a full flow for designing and simulating a CMOS gate
+
+Establishes foundation for scaling to larger gates (NAND, NOR, XOR)
+
+Introduces critical tools used in open-source VLSI
+
+--- 
+
+
+### Closing Notes
+
+Feel free to reach out or fork this repo if you’re also learning custom chip design using open tools. I hope this helps other students and hobbyists dive into VLSI!
 
 
 
