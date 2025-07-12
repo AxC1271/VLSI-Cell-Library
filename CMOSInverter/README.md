@@ -58,6 +58,7 @@ M2 Z A vdd vdd pfet w=20 l=2
 
 .tran 1p 1200p
 .end
+```
 
 ### 📈 Simulation (ngspice)
 
