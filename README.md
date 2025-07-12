@@ -1,1 +1,4 @@
-# VLSI-Projects
+# Repository for VLSI Projects
+Hi there! Welcome to my repository on VLSI, where I explore chip design, layout, simulation, and verification using open source tools like Magic, ngspice, netgen, and Xschem. After taking a digital systems design course at Case, I felt a huge amount of interest in chip design but felt frustrated due to the fact that there were limited resources/courses at Case. This repository is a portfolio of the projects that I've undertaken as a result of my curiosity and initiative to learn something like CMOS chip design, eventually going into even analog or mixed signal design. I hope for anyone reading this to find my repository not only a proof of my skills and knowledge but also as an inspiration for those interested going into chip design but have no idea where to start. I aim to make my README's as informative and educational without being didactic to my intended audience (employers and other ECSE students).
+
+# Questions about my Tools
