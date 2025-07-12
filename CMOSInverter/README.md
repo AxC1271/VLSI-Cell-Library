@@ -34,6 +34,14 @@ This complementary behavior ensures low static power and fast switching.
 
 ### 📐 Schematic / SPICE Netlist
 
+<p align="center">
+  <img src="images/inverter_schematic.png" alt="CMOS Inverter Schematic" width="500"/>
+</p>
+
+- Includes a PMOS and NMOS transistor.
+- Uses .model definitions for simulation.
+- Simulated using ngspice to observe inverter behavior.
+
 This project uses a hand-written SPICE netlist based on a layout extracted from Magic, with devices sized in lambda units and simulated with realistic BSIM3 transistor models.
 
 ```spice
@@ -50,3 +58,41 @@ M2 Z A vdd vdd pfet w=20 l=2
 
 .tran 1p 1200p
 .end
+
+### 📈 Simulation (ngspice)
+
+<p align="center">
+  <img src="./SimulationWaveForm.png" alt="CMOS Inverter Waveform" width="600"/>
+</p>
+
+The inverter demonstrates standard logic behavior:
+- Low input → high output
+- High input → low output
+
+The blue waveform is the pulse input whilst the red waveform is the output, which is acting as expected.
+
+---
+
+### 🧱 Layout (Magic VLSI)
+
+<p align="center">
+  <img src="./CMOSInverterLayout.png" alt="CMOS Inverter Layout" width="400"/>
+</p>
+
+- Drawn using n-diffusion, p-diffusion, poly, and metal layers.
+- DRC clean.
+- Extracted netlist used for LVS comparison.
+
+---
+
+### 🧪 Spice Models
+This simulation uses BSIM3 Level-49 models for a 0.5µm process from the 2002a SCMOS node (ami05.txt). A snippet from the included model file:
+
+spice
+.model nfet NMOS (LEVEL=49 VTH0=0.71 U0=533 ...)
+.model pfet PMOS (LEVEL=49 VTH0=-0.92 U0=202 ...)
+---
+
+
+
+
