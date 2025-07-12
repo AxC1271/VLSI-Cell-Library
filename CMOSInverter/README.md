@@ -104,6 +104,19 @@ The inverter behaves as expected — producing a clean logic inversion with mini
 
 --- 
 
+### 🚀 Next Steps
+Future ideas to build on this project:
+
+1. 🔁 Design a ring oscillator and measure delay
+
+2. 🔨 Create a CMOS NAND and NOR gate layout
+
+3. 🧠 Simulate inverter chains and extract propagation delay
+
+4. 🔎 Run LVS with netgen
+
+5. 📐 Explore parasitic capacitance extraction and performance tuning
+
 
 ### Closing Notes
 
