@@ -55,7 +55,7 @@ The inverter demonstrates standard logic behavior:
 ## 🧱 Layout (Magic VLSI)
 
 <p align="center">
-  <img src="images/inverter_layout.png" alt="CMOS Inverter Layout" width="400"/>
+  <img src="CMOSInverter/CMOSInverterLayout.png" alt="CMOS Inverter Layout" width="400"/>
 </p>
 
 - Drawn using n-diffusion, p-diffusion, poly, and metal layers.
