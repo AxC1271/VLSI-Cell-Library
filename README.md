@@ -16,5 +16,9 @@ For those unfamiliar, netgen does an LVS check (layout vs. schematic) to ensure 
 ## ngspice
 ngspice is used to simulate the spice netlist from Magic using a spice directive. 
 
-# Technology Node
+## Technology Node
 As for the specific transistor model I am using, it's on the website <a>http://www.opencircuitdesign.com/magic//</a> and the model I am using currently is the 2002a (although this may change to the sky130A pdk in the future). 
+
+# Projects So Far
+
+## 1. CMOS Inverter
