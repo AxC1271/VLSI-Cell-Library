@@ -1,0 +1,7 @@
+timestamp 1752293548
+version 8,3
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+node "gnd" 778 
