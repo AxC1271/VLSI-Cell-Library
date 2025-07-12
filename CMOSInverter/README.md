@@ -43,7 +43,7 @@ A CMOS inverter is composed of a **PMOS pull-up** and **NMOS pull-down** transis
 ### 📈 Simulation (ngspice)
 
 <p align="center">
-  <img src="images/inverter_waveform.png" alt="CMOS Inverter Waveform" width="600"/>
+  <img src="./SimulationWaveForm.png" alt="CMOS Inverter Waveform" width="600"/>
 </p>
 
 The inverter demonstrates standard logic behavior:
