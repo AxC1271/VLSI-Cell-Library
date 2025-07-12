@@ -10,7 +10,7 @@ This project walks through the complete flow of schematic → simulation → lay
 
 | Tool     | Purpose |
 |----------|---------|
-| Xschem   | Schematic design |
+| --- | Schematic design |
 | ngspice  | Circuit simulation |
 | Magic VLSI | Physical layout |
 | netgen   | Layout vs. Schematic (LVS) check |
@@ -28,7 +28,7 @@ A CMOS inverter is composed of a **PMOS pull-up** and **NMOS pull-down** transis
 
 ---
 
-### 📐 Schematic (Xschem)
+### 📐 Schematic
 
 <p align="center">
   <img src="images/inverter_schematic.png" alt="CMOS Inverter Schematic" width="500"/>
@@ -63,17 +63,6 @@ The blue waveform is the pulse input whilst the red waveform is the output, whic
 - Drawn using n-diffusion, p-diffusion, poly, and metal layers.
 - DRC clean.
 - Extracted netlist used for LVS comparison.
-
----
-
-### ✅ LVS Check (Netgen)
-
-<p align="center">
-  <img src="images/lvs_result.png" alt="LVS Check Result" width="500"/>
-</p>
-
-- LVS passed: layout matches schematic.
-- Confirms that physical implementation correctly represents intended logic.
 
 ---
 
