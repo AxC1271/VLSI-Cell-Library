@@ -32,11 +32,19 @@ This complementary behavior ensures low static power and fast switching.
 
 ---
 
-### 📐 Schematic / SPICE Netlist
+### 🧱 Layout (Magic VLSI)
 
 <p align="center">
-  <img src="images/inverter_schematic.png" alt="CMOS Inverter Schematic" width="500"/>
+  <img src="./CMOSInverterLayout.png" alt="CMOS Inverter Layout" width="400"/>
 </p>
+
+- Drawn using n-diffusion, p-diffusion, poly, and metal layers.
+- DRC clean.
+- Extracted netlist used for LVS comparison.
+
+---
+
+### 📐 SPICE Netlist
 
 - Includes a PMOS and NMOS transistor.
 - Uses .model definitions for simulation.
@@ -60,6 +68,17 @@ M2 Z A vdd vdd pfet w=20 l=2
 .end
 ```
 
+### 🧪 Spice Models
+This simulation uses BSIM3 Level-49 models for a 0.5µm process from the 2002a SCMOS node (ami05.txt). A snippet from the included model file:
+
+```spice
+.model nfet NMOS (LEVEL=49 VTH0=0.71 U0=533 ...)
+.model pfet PMOS (LEVEL=49 VTH0=-0.92 U0=202 ...)
+```
+These models include realistic second-order effects: mobility degradation, velocity saturation, DIBL, etc.
+
+---
+
 ### 📈 Simulation (ngspice)
 
 <p align="center">
@@ -71,29 +90,7 @@ The inverter demonstrates standard logic behavior:
 - High input → low output
 
 The blue waveform is the pulse input whilst the red waveform is the output, which is acting as expected.
-
----
-
-### 🧱 Layout (Magic VLSI)
-
-<p align="center">
-  <img src="./CMOSInverterLayout.png" alt="CMOS Inverter Layout" width="400"/>
-</p>
-
-- Drawn using n-diffusion, p-diffusion, poly, and metal layers.
-- DRC clean.
-- Extracted netlist used for LVS comparison.
-
----
-
-### 🧪 Spice Models
-This simulation uses BSIM3 Level-49 models for a 0.5µm process from the 2002a SCMOS node (ami05.txt). A snippet from the included model file:
-
-```spice
-.model nfet NMOS (LEVEL=49 VTH0=0.71 U0=533 ...)
-.model pfet PMOS (LEVEL=49 VTH0=-0.92 U0=202 ...)
-```
-
+The inverter behaves as expected — producing a clean logic inversion with minimal delay or distortion, even with modestly sized transistors.
 
 ---
 
