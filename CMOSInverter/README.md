@@ -89,9 +89,13 @@ The blue waveform is the pulse input whilst the red waveform is the output, whic
 ### 🧪 Spice Models
 This simulation uses BSIM3 Level-49 models for a 0.5µm process from the 2002a SCMOS node (ami05.txt). A snippet from the included model file:
 
+```
 spice
 .model nfet NMOS (LEVEL=49 VTH0=0.71 U0=533 ...)
 .model pfet PMOS (LEVEL=49 VTH0=-0.92 U0=202 ...)
+```
+
+
 ---
 
 
