@@ -6,7 +6,7 @@ This project walks through the complete flow of schematic → simulation → lay
 
 ---
 
-## 🔧 Tools Used
+### 🔧 Tools Used
 
 | Tool     | Purpose |
 |----------|---------|
@@ -17,7 +17,7 @@ This project walks through the complete flow of schematic → simulation → lay
 
 ---
 
-## 🧠 Theory
+### 🧠 Theory
 
 A CMOS inverter is composed of a **PMOS pull-up** and **NMOS pull-down** transistor connected in series between VDD and GND. The gates are tied together as input, and the drains are tied together as output.
 
@@ -28,7 +28,7 @@ A CMOS inverter is composed of a **PMOS pull-up** and **NMOS pull-down** transis
 
 ---
 
-## 📐 Schematic (Xschem)
+### 📐 Schematic (Xschem)
 
 <p align="center">
   <img src="images/inverter_schematic.png" alt="CMOS Inverter Schematic" width="500"/>
@@ -40,7 +40,7 @@ A CMOS inverter is composed of a **PMOS pull-up** and **NMOS pull-down** transis
 
 ---
 
-## 📈 Simulation (ngspice)
+### 📈 Simulation (ngspice)
 
 <p align="center">
   <img src="images/inverter_waveform.png" alt="CMOS Inverter Waveform" width="600"/>
@@ -52,7 +52,7 @@ The inverter demonstrates standard logic behavior:
 
 ---
 
-## 🧱 Layout (Magic VLSI)
+### 🧱 Layout (Magic VLSI)
 
 <p align="center">
   <img src="./CMOSInverterLayout.png" alt="CMOS Inverter Layout" width="400"/>
@@ -64,7 +64,7 @@ The inverter demonstrates standard logic behavior:
 
 ---
 
-## ✅ LVS Check (Netgen)
+### ✅ LVS Check (Netgen)
 
 <p align="center">
   <img src="images/lvs_result.png" alt="LVS Check Result" width="500"/>
@@ -75,7 +75,7 @@ The inverter demonstrates standard logic behavior:
 
 ---
 
-## 🧪 Spice Models
+### 🧪 Spice Models
 
 ```spice
 .model nmos_n01 NMOS (LEVEL=1 VTO=0.7 KP=50u)
