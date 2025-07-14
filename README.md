@@ -7,7 +7,7 @@ This repo is my personal initiative to bridge that gap. It’s both a portfolio 
 
 ## 🔧 Toolchain Overview
 
-All tools were installed via `apt-get` on Ubuntu. Feel free to contact me at [achen5291@gmail.com](mailto:achen5291@gmail.com) for setup help.
+All tools were installed via `apt-get` on Ubuntu. 
 
 ### 🖉 Xschem
 Used for schematic capture. It helps visualize and construct transistor-level designs.
