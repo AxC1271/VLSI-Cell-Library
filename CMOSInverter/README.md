@@ -73,9 +73,9 @@ This complementary behavior ensures low static power and fast switching.
 </div>
 
 - Drawn using n-diffusion, p-diffusion, poly, and metal layers.
-- DRC clean.
 - Extracted netlist used for LVS comparison.
-
+- DRC clean.
+- 
 ---
 
 ### 📐 SPICE Netlist
