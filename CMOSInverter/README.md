@@ -6,7 +6,7 @@ The goal is to explore basic CMOS behavior and get familiar with digital custom 
 
 ---
 ### 🔧 Tools Used
-<div style="text-align: center;">
+<div align="center">
   <table>
     <tr>
       <th>Tool</th>
