@@ -26,7 +26,7 @@ Performs SPICE-level simulations to verify circuit behavior (timing, voltage lev
 - Designed and simulated a CMOS inverter using Magic and ngspice.
 - Familiarized myself with these tools for VLSI workflow.
 
-### [2. Logic Gates (WIP)](./LogicGates)
+### [2. Logic Gates (Work in Progress)](./LogicGates)
 - Draw out the transistor schematic layout of NAND, NOR, AND, OR, XOR, and XOR gates.
 - Design the gates mentioned above using Magic VLSI Layout.
 - Verify LVS using netgen then simulate using ngspice.
