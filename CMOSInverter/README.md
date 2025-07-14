@@ -102,6 +102,8 @@ M2 Z A vdd vdd pfet w=20 l=2
 .end
 ```
 
+---
+
 ### 🧪 Spice Models
 This simulation uses BSIM3 Level-49 models for a 0.5µm process from the 2002a SCMOS node (ami05.txt). A snippet from the included model file:
 
@@ -151,6 +153,7 @@ Future ideas to build on this project:
 
 5. 📐 Explore parasitic capacitance extraction and performance tuning
 
+--- 
 
 ### Closing Notes
 
