@@ -22,7 +22,6 @@ Used for Layout vs. Schematic (LVS) checks to ensure that the layout matches the
 Performs SPICE-level simulations to verify circuit behavior (timing, voltage levels, etc.) before fabrication.
 
 # Projects So Far
-## Beginner Level Projects
 ### 1. CMOS Inverter
 - Designed and simulated a CMOS inverter using Magic and ngspice.
 - Familiarized myself with these tools for VLSI workflow.
@@ -32,7 +31,3 @@ Performs SPICE-level simulations to verify circuit behavior (timing, voltage lev
 - Design the gates mentioned above using Magic VLSI Layout.
 - Verify LVS using netgen then simulate using ngspice.
 - Analyze the propagation delay of each individual gate.
-
-## Intermediate Level Projects
-
-## Advanced Level Projects
