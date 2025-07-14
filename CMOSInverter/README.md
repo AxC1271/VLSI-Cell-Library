@@ -7,16 +7,12 @@ The goal is to explore basic CMOS behavior and get familiar with digital custom 
 ---
 
 ### 🔧 Tools Used
-<div
-  align="center"
-  >
 | Tool        | Purpose                        |
 |-------------|--------------------------------|
 | Magic VLSI  | Physical layout and netlist extraction |
 | ngspice     | Transient simulation of SPICE netlist |
 | *(Optional)* Xschem | Schematic capture and SPICE export |
 | *(Optional)* netgen | LVS comparison between layout and schematic |
-</div>
 
 > 📝 **Note:** Xschem and netgen are not strictly required for this inverter — the schematic can be described manually in SPICE, and LVS can be skipped for such a small circuit.
 
