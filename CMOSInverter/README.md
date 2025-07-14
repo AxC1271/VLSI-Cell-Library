@@ -43,6 +43,29 @@ A CMOS inverter consists of a **PMOS pull-up** and **NMOS pull-down** transistor
 | 0     | ON   | OFF  | 1      |
 | 1     | OFF  | ON   | 0      |
 
+<div align="center">
+  <table>
+    <tr>
+      <th>Input</th>
+      <th>PMOS</th>
+      <th>NMOS</th>
+      <th>Output</th>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>ON</td>
+      <td>OFF</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>OFF</td>
+      <td>ON</td>
+      <td>0</td>
+    </tr>
+  </table>
+</div>
+
 
 This complementary behavior ensures low static power and fast switching.
 
