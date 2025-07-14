@@ -22,11 +22,11 @@ Used for Layout vs. Schematic (LVS) checks to ensure that the layout matches the
 Performs SPICE-level simulations to verify circuit behavior (timing, voltage levels, etc.) before fabrication.
 
 # Projects So Far
-### 1. CMOS Inverter
+### [1. CMOS Inverter](./CMOSInverter)
 - Designed and simulated a CMOS inverter using Magic and ngspice.
 - Familiarized myself with these tools for VLSI workflow.
 
-### 2. Logic Gates (WIP)
+### [2. Logic Gates (WIP)](./LogicGates)
 - Draw out the transistor schematic layout of NAND, NOR, AND, OR, XOR, and XOR gates.
 - Design the gates mentioned above using Magic VLSI Layout.
 - Verify LVS using netgen then simulate using ngspice.
