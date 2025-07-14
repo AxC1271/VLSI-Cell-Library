@@ -26,3 +26,9 @@ Performs SPICE-level simulations to verify circuit behavior (timing, voltage lev
 ### 1. CMOS Inverter
 - Designed and simulated a CMOS inverter using Magic and ngspice.
 - Verified with LVS using netgen.
+
+### 2. Logic Gates (WIP)
+- Draw out the transistor schematic layout of NAND, NOR, AND, OR, XOR, and XOR gates.
+- Design the gates mentioned above using Magic VLSI Layout.
+- Verify LVS using netgen then simulate using ngspice.
+- Analyze the propagation delay of each individual gate.
