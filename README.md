@@ -12,7 +12,7 @@ All tools were installed via `apt-get` on Ubuntu.
 ### 🖉 Xschem
 Used for schematic capture. It helps visualize and construct transistor-level designs.
 
-### 🧱 Magic VLSI Layout
+### 🧱 Magic Layout
 Used to create physical layouts with n-diffusion, p-diffusion, poly, metal layers, etc. It also exports SPICE netlists for simulation.
 
 ### 📐 Netgen
