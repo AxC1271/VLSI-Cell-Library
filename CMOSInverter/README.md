@@ -33,9 +33,9 @@ This complementary behavior ensures low static power and fast switching.
 
 ### 🧱 Layout (Magic VLSI)
 
-<p align="center">
+<div align="center">
   <img src="./CMOSInverterLayout.png" alt="CMOS Inverter Layout" width="400"/>
-</p>
+</div>
 
 - Drawn using n-diffusion, p-diffusion, poly, and metal layers.
 - DRC clean.
@@ -80,9 +80,9 @@ These models include realistic second-order effects: mobility degradation, veloc
 
 ### 📈 Simulation (ngspice)
 
-<p align="center">
+<div align="center">
   <img src="./SimulationWaveForm.png" alt="CMOS Inverter Waveform" width="600"/>
-</p>
+</div>
 
 The inverter demonstrates standard logic behavior:
 - Low input → high output
