@@ -38,11 +38,6 @@ The goal is to explore basic CMOS behavior and get familiar with digital custom 
 
 A CMOS inverter consists of a **PMOS pull-up** and **NMOS pull-down** transistor connected in series between VDD and GND. The gates are tied together as the input, and the drains are tied together as the output.
 
-| Input | PMOS | NMOS | Output |
-|-------|------|------|--------|
-| 0     | ON   | OFF  | 1      |
-| 1     | OFF  | ON   | 0      |
-
 <div align="center">
   <table>
     <tr>
