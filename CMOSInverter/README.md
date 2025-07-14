@@ -5,7 +5,6 @@ As the "Hello World" of CMOS VLSI design, this project implements a **CMOS inver
 The goal is to explore basic CMOS behavior and get familiar with digital custom design flows using open tools — similar to those used in industry and academia.
 
 ---
-<div style="text-align: center;">
 ### 🔧 Tools Used
 | Tool        | Purpose                        |
 |-------------|--------------------------------|
@@ -15,7 +14,6 @@ The goal is to explore basic CMOS behavior and get familiar with digital custom 
 | *(Optional)* netgen | LVS comparison between layout and schematic |
 
 > 📝 **Note:** Xschem and netgen are not strictly required for this inverter — the schematic can be described manually in SPICE, and LVS can be skipped for such a small circuit.
-</div>
 ---
 
 ### 🧠 CMOS Inverter Theory
