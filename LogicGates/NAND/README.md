@@ -63,14 +63,19 @@ The NAND gate is the universal logic gate, as any digital logic circuit can be i
   Input Waveforms
 </div>
 <br/>
-<br/>
 
 <div align="center">
   <img src="./NAND_Output.png" alt="NAND Gate Layout" width="400"/>
 </div>
 <div align="center">
   Output Waveform with Parasitic Capacitance
-  </div>
-  
+</div>
+<br/>
+
+As seen in the waveform, the output Z goes low when both A and B are high, validating the behavior of a NAND gate.
+
 ---
 
+### 🛠️ Troubleshooting Difficulties
+
+---
