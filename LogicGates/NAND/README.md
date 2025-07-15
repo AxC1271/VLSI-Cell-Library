@@ -21,7 +21,7 @@ The NAND gate is a universal logic gate — all digital systems can be built usi
 ## 🔧 Transistor-Level Schematic
 
 <p align="center">
-  <img src="./NAND_Schematic.png" width="400" alt="NAND Schematic"/>
+  <img src="./NAND_Schematic.png" width="800" alt="NAND Schematic"/>
 </p>
 <p align="center"><em>CMOS schematic captured in Xcircuit</em></p>
 
@@ -30,7 +30,7 @@ The NAND gate is a universal logic gate — all digital systems can be built usi
 ## 🧱 Layout in Magic VLSI
 
 <p align="center">
-  <img src="./NAND_Layout.png" width="400" alt="NAND Layout"/>
+  <img src="./NAND_Layout.png" width="800" alt="NAND Layout"/>
 </p>
 <p align="center"><em>Full custom layout using Magic VLSI</em></p>
 
