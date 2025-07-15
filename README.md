@@ -7,7 +7,7 @@ This repo is my personal initiative to bridge that gap. It’s both a portfolio 
 
 ## 🔧 Toolchain Overview
 
-All tools were installed via `apt-get` on Ubuntu. 
+All tools were installed via `apt-get` on Ubuntu. The specific technology node used at this time is the 2002a node from [OpenCircuitDesign](opencircuitdesign.com) but will be switched to the sky130A node in the future.
 
 ### 🖉 Xcircuit
 Used for schematic capture. It helps visualize and construct transistor-level designs. Also provides a spice netlist of the circuit for layout vs. schematic validation with netgen.
