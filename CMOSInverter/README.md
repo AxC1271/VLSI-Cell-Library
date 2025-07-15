@@ -125,7 +125,7 @@ The inverter demonstrates standard logic behavior:
 - Low input → high output
 - High input → low output
 
-The blue waveform is the pulse input whilst the red waveform is the output, which is acting as expected.
+The blue waveform is the output while the red waveform is the input pulse, which is acting as expected.
 The inverter behaves as expected — producing a clean logic inversion with minimal delay or distortion, even with modestly sized transistors.
 
 ---
