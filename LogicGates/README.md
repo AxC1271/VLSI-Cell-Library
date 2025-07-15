@@ -36,7 +36,7 @@ Building from the previous project (CMOS Inverter), this project aims to layout 
 
 In static CMOS logic, any function can be implemented using a PUN (pull-up network) and a PDN (pull-down network). Each network consists of PMOS and NMOS transistors respectively, and they are arranged in a way such that they complement each other. This ensures that the output of any static CMOS circuit is only ever directly connected to VDD or GND but ***NOT both*** at the same time (which also means there never exists a direct path from power to ground). This minimizes power dissipation and gives the circuit high switching speed while maintaining signal integrity.
 
-### MOSFET Schematic
+### ⏚ MOSFET Schematic
 <div align="center">
   <img src="./NAND_Schematic.png" alt="NAND Gate Schematic" width="400" />
 </div>
