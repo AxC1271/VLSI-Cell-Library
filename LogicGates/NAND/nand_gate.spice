@@ -1,0 +1,28 @@
+* NAND Gate Testbench
+.include ./ami05.txt
+.option scale=0.3u
+.options method=gear reltol=1e-4 abstol=1e-12 vabstol=1e-12
+
+* Power
+Vdd vdd 0 3.3
+
+* Input Pulses
+VA A 0 PULSE(0 3.3 500p 1p 1p 500p 1000p)
+VB B 0 PULSE(0 3.3 1000p 1p 1p 1000p 2000p)
+
+* NAND Gate
+M1 vdd B Z w_n6_n6# pfet w=8 l=3
+M2 Z A vdd w_n6_n6# pfet w=8 l=3
+M3 Z B a_14_n22# 0 nfet w=8 l=3
+M4 a_14_n22# A 0 0 nfet w=8 l=3
+
+* Parasitics
+C0 0 0 2.39fF
+C1 vdd 0 3.13fF
+C2 w_n6_n6# 0 3.89fF
+Cload Z 0 20f
+
+.tran 0.1p 3n
+
+.end
+
