@@ -74,7 +74,7 @@ During testing, I originally used **fast input pulses** in the picosecond range.
 | `NAND_Schematic.png` | Transistor-level schematic (Xcircuit)  |
 | `NAND_Layout.png`    | Magic VLSI layout                      |
 | `NAND_Output.png`    | Simulated output waveform              |
-| `testbench.spice`    | SPICE netlist with extracted parasitics |
+| `nand_gate.spice`    | SPICE netlist with extracted parasitics|
 | `README.md`          | This documentation                     |
 
 ---
