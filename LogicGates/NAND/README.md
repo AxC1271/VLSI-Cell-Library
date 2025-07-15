@@ -63,7 +63,7 @@ During testing, I originally used **fast input pulses** in the picosecond range.
 - Residual charge buildup
 - Oscillatory or jagged outputs
 
-**Resolution:** Slowed down input waveforms to match realistic propagation delay (~10 ns), resulting in clean and stable output transitions.
+**Resolution:** Slowed down input waveforms to match realistic propagation delay (ns range), resulting in clean and stable output transitions.
 
 ---
 
