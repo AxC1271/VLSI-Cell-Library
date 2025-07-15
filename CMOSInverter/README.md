@@ -21,7 +21,7 @@ The goal is to explore basic CMOS behavior and get familiar with digital custom 
       <td>Transient simulation of SPICE netlist</td>
     </tr>
     <tr>
-      <td><em>(Optional)</em> Xschem</td>
+      <td><em>(Optional)</em>Xcircuit</td>
       <td>Schematic capture and SPICE export</td>
     </tr>
     <tr>
