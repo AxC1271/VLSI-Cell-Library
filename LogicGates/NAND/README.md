@@ -2,6 +2,36 @@
 
 The NAND gate is the universal logic gate, as any digital logic circuit can be implemented using just pure NAND gates. Within CMOS design, the NAND gate is also the simplest (along with the NOR gate). The truth table of the NAND gate goes as follows:
 
+<div align="center">
+  <table>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>Output</th>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </table>
+</div>
+
 ---
 ### ⏚ Transistor Schematic (Xcircuit)
 
