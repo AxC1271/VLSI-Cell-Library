@@ -57,7 +57,7 @@ The NAND gate is the universal logic gate, as any digital logic circuit can be i
 
 ### 🧮 Simulation using ngspice 
 <div align="center">
-  <img src="./NAND_Input.png" alt="NAND Gate Layout" width="400"/>
+  <img src="./NAND_Input.png" alt="NAND Gate Layout" width="800"/>
 </div>
 <div align="center">
   Input Waveforms
@@ -65,7 +65,7 @@ The NAND gate is the universal logic gate, as any digital logic circuit can be i
 <br/>
 
 <div align="center">
-  <img src="./NAND_Output.png" alt="NAND Gate Layout" width="400"/>
+  <img src="./NAND_Output.png" alt="NAND Gate Layout" width="800"/>
 </div>
 <div align="center">
   Output Waveform with Parasitic Capacitance
