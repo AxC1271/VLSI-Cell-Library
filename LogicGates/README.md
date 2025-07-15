@@ -1,85 +1,81 @@
-# Logic Gates
+# 🔲 Logic Gates — CMOS VLSI (Full Custom)
 
+Building on the previous [CMOS Inverter](../Inverter) project, this repository contains full-custom layouts and simulations of basic logic gates: `NAND`, `NOR`, `AND`, `OR`, `XOR`, and `XNOR`.
 
-Building from the previous project (CMOS Inverter), this project aims to layout the basic logic gates (NAND, NOR, AND, OR, XOR, XNOR), analyze power consumption, and analyze the propagation delay of each gate using open source tools. To see each gate in more detail, view the respective directory, as each will be provided with its own README file.
-
----
-### 🔧 Tools Used
-<div align="center">
-  <table>
-    <tr>
-      <th>Tool</th>
-      <th>Purpose</th>
-    </tr>
-    <tr>
-      <td>Magic VLSI</td>
-      <td>Physical layout and netlist extraction</td>
-    </tr>
-    <tr>
-      <td>ngspice</td>
-      <td>Transient simulation of SPICE netlist</td>
-    </tr>
-    <tr>
-      <td>Xcircuit</td>
-      <td>Schematic capture and SPICE export</td>
-    </tr>
-    <tr>
-      <td>netgen</td>
-      <td>LVS comparison between layout and schematic</td>
-    </tr>
-  </table>
-</div>
+Each gate has its own folder with:
+- Custom layout in Magic VLSI
+- Schematic in Xcircuit
+- LVS checks with Netgen
+- SPICE simulation using ngspice
+- Parasitic-aware analysis
 
 ---
 
-### 🧠 Static CMOS Logic 
+## 🛠 Tools Used
 
-In static CMOS logic, any function can be implemented using a PUN (pull-up network) and a PDN (pull-down network). Each network consists of PMOS and NMOS transistors respectively, and they are arranged in a way such that they complement each other. This ensures that the output of any static CMOS circuit is only ever directly connected to VDD or GND but ***NOT both*** at the same time (which also means there never exists a direct path from power to ground). This minimizes power dissipation and gives the circuit high switching speed while maintaining signal integrity.
+| Tool        | Purpose                                 |
+|-------------|-----------------------------------------|
+| Magic VLSI  | Physical layout and netlist extraction  |
+| ngspice     | Transient simulation of SPICE netlists  |
+| Xcircuit    | Schematic capture and SPICE export      |
+| netgen      | LVS comparison between layout and schematic |
 
-### ⏚ Transistor-Level Schematic
-<div align="center">
-  <img src="./NAND/NAND_Schematic.png" alt="NAND Gate Schematic" width="800" />
-</div>
-<div align="center">
-  Example Schematic
-  </div>
-  
 ---
 
-### 🧱 Layout (Magic VLSI)
 
-<div align="center">
-  <img src="./NAND/NAND_Layout.png" alt="NAND Gate Layout" width="800"/>
-</div>
-<div align="center">
-  Example Layout
-  </div>
-  
 ---
 
-### 🧪 Spice Models
-This simulation uses BSIM3 Level-49 models for a 0.5µm process from the 2002a SCMOS node (ami05.txt). A snippet from the included model file:
+## 🧠 Theory: Static CMOS Logic
+
+In static CMOS logic, any function can be implemented using a pull-up network (PUN) and a pull-down network (PDN). Each consists of PMOS and NMOS transistors arranged complementarily.
+
+This ensures:
+- Output is always connected to either VDD or GND
+- No direct current path between power and ground
+- Low static power dissipation
+- High noise margins and fast switching
+
+---
+
+## 💡 Example: NAND Gate
+
+### Transistor-Level Schematic
+
+<p align="center">
+  <img src="./NAND/NAND_Schematic.png" width="600" />
+</p>
+<p align="center"><em>2-input NAND schematic (Xcircuit)</em></p>
+
+### Layout (Magic VLSI)
+
+<p align="center">
+  <img src="./NAND/NAND_Layout.png" width="600" />
+</p>
+<p align="center"><em>Magic VLSI layout (with DRC clean)</em></p>
+
+---
+
+## 🧪 Simulation: Spice Models
+
+Simulation uses BSIM3 Level-49 models from the SCMOS `ami05` 0.5µm process.
 
 ```spice
 .model nfet NMOS (LEVEL=49 VTH0=0.71 U0=533 ...)
 .model pfet PMOS (LEVEL=49 VTH0=-0.92 U0=202 ...)
 ```
-These models include realistic second-order effects: mobility degradation, velocity saturation, DIBL, etc.
+---
+
+## ✅ Takeaways
+- Learned how to extract parasitics and simulate post-layout
+- Understand layouts of basic logic gates
 
 ---
 
-### ✅ Takeaways
-
---- 
-
-### 🚀 Next Steps
-Future ideas to build on this project:
+## 🚀 Next Steps
+- Design memory circuits using Xcircuit and Magic 
 
 ---
 
-### Closing Notes
-
-Feel free to reach out or fork this repo if you’re also learning custom chip design using open tools. I hope this helps other students and hobbyists dive into VLSI!
-
-
-
+## 🙌 Closing Notes
+This repo is for students, researchers, and hobbyists learning VLSI using open tools.
+Feel free to fork, open issues, or contribute new gate implementations!
