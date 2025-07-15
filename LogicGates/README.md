@@ -20,7 +20,7 @@ Building from the previous project (CMOS Inverter), this project aims to layout 
       <td>Transient simulation of SPICE netlist</td>
     </tr>
     <tr>
-      <td> Xschem</td>
+      <td>Xcircuit</td>
       <td>Schematic capture and SPICE export</td>
     </tr>
     <tr>
