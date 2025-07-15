@@ -7,8 +7,8 @@
 Vdd vdd 0 3.3
 
 * Input Pulses
-VA A 0 PULSE(0 3.3 500p 1p 1p 500p 1000p)
-VB B 0 PULSE(0 3.3 1000p 1p 1p 1000p 2000p)
+VA A 0 PULSE(0 3.3 5n 1p 1p 5n 10n)
+VB B 0 PULSE(0 3.3 10n 1p 1p 10n 20n)
 
 * NAND Gate
 M1 vdd B Z w_n6_n6# pfet w=8 l=3
@@ -20,9 +20,8 @@ M4 a_14_n22# A 0 0 nfet w=8 l=3
 C0 0 0 2.39fF
 C1 vdd 0 3.13fF
 C2 w_n6_n6# 0 3.89fF
-Cload Z 0 20f
+Cload Z 0 80f
 
-.tran 0.1p 3n
+.tran 1n 40n
 
 .end
-
