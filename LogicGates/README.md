@@ -40,8 +40,9 @@ In static CMOS logic, any function can be implemented using a PUN (pull-up netwo
 
 ### 🧱 Layout (Magic VLSI)
 
-#### NAND
+
 <div align="center">
+  NAND Gate
   <img src="./NAND_Layout.png" alt="NAND Gate Layout" width="400"/>
 </div>
 ---
