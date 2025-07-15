@@ -38,7 +38,7 @@ In static CMOS logic, any function can be implemented using a PUN (pull-up netwo
 
 ### ⏚ Transistor-Level Schematic
 <div align="center">
-  <img src="./NAND/NAND_Schematic.png" alt="NAND Gate Schematic" width="400" />
+  <img src="./NAND/NAND_Schematic.png" alt="NAND Gate Schematic" width="800" />
 </div>
 <div align="center">
   Example Schematic
@@ -49,7 +49,7 @@ In static CMOS logic, any function can be implemented using a PUN (pull-up netwo
 ### 🧱 Layout (Magic VLSI)
 
 <div align="center">
-  <img src="./NAND/NAND_Layout.png" alt="NAND Gate Layout" width="400"/>
+  <img src="./NAND/NAND_Layout.png" alt="NAND Gate Layout" width="800"/>
 </div>
 <div align="center">
   Example Layout
