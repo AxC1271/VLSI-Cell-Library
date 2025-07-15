@@ -1,7 +1,7 @@
 # Logic Gates
 
 
-Building from the previous project (CMOS Inverter), this project aims to layout the basic logic gates (NAND, NOR, AND, OR, XOR, XNOR), analyze power consumption, and analyze the propagation delay of each gate using open source tools.
+Building from the previous project (CMOS Inverter), this project aims to layout the basic logic gates (NAND, NOR, AND, OR, XOR, XNOR), analyze power consumption, and analyze the propagation delay of each gate using open source tools. To see each gate in more detail, view the respective directory, as each will be provided with its own README file.
 
 ---
 ### 🔧 Tools Used
@@ -41,7 +41,7 @@ In static CMOS logic, any function can be implemented using a PUN (pull-up netwo
   <img src="./NAND/NAND_Schematic.png" alt="NAND Gate Schematic" width="400" />
 </div>
 <div align="center">
-  NAND Gate Schematic
+  Example Schematic
   </div>
   
 ---
@@ -52,14 +52,11 @@ In static CMOS logic, any function can be implemented using a PUN (pull-up netwo
   <img src="./NAND/NAND_Layout.png" alt="NAND Gate Layout" width="400"/>
 </div>
 <div align="center">
-  NAND Gate Layout
+  Example Layout
   </div>
   
 ---
 
-### 📐 SPICE Netlist
-
----
 ### 🧪 Spice Models
 This simulation uses BSIM3 Level-49 models for a 0.5µm process from the 2002a SCMOS node (ami05.txt). A snippet from the included model file:
 
@@ -68,10 +65,6 @@ This simulation uses BSIM3 Level-49 models for a 0.5µm process from the 2002a S
 .model pfet PMOS (LEVEL=49 VTH0=-0.92 U0=202 ...)
 ```
 These models include realistic second-order effects: mobility degradation, velocity saturation, DIBL, etc.
-
----
-
-### 📈 Simulation (ngspice)
 
 ---
 
