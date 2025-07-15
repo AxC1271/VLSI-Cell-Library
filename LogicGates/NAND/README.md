@@ -62,6 +62,8 @@ The NAND gate is the universal logic gate, as any digital logic circuit can be i
 <div align="center">
   Input Waveforms
 </div>
+<br/>
+<br/>
 
 <div align="center">
   <img src="./NAND_Output.png" alt="NAND Gate Layout" width="400"/>
