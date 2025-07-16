@@ -31,7 +31,7 @@ Its behavior is defined by the following truth table:
 ## 🧱 Layout in Magic VLSI
 
 <p align="center">
-  <img src="./NOR_Layout.png" width="800" alt="NOR Layout"/>
+  <img src="./nor_layout.png" width="800" alt="NOR Layout"/>
 </p>
 <p align="center"><em>Full custom layout using Magic VLSI</em></p>
 
