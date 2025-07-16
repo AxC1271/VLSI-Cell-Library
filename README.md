@@ -31,3 +31,8 @@ Performs SPICE-level simulations to verify circuit behavior (timing, voltage lev
 - Design the gates mentioned above using Magic VLSI Layout.
 - Verify LVS using netgen then simulate using ngspice.
 - Analyze the propagation delay of each individual gate.
+
+- ### [2. Memory (Work in Progress)](./MemoryCircuit)
+- Draw out the transistor schematic and layout the SR latch and D flip flop.
+- Verify LVS using netgen then simulate using ngspice.
+- Identify the setup and holdup time of the D flip-flop.
