@@ -30,7 +30,7 @@ The NAND gate is a universal logic gate — all digital systems can be built usi
 ## 🧱 Layout in Magic VLSI
 
 <p align="center">
-  <img src="./NAND_Layout.png" width="800" alt="NAND Layout"/>
+  <img src="./nand_layout.png" width="800" alt="NAND Layout"/>
 </p>
 <p align="center"><em>Full custom layout using Magic VLSI</em></p>
 
