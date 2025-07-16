@@ -22,7 +22,7 @@ Its behavior is defined by the following truth table:
 ## 🔧 Transistor-Level Schematic
 
 <p align="center">
-  <img src="./NAND_Schematic.png" width="800" alt="NAND Schematic"/>
+  <img src="./NOR_Schematic.png" width="800" alt="NOR Schematic"/>
 </p>
 <p align="center"><em>CMOS schematic captured in Xcircuit</em></p>
 
@@ -31,7 +31,7 @@ Its behavior is defined by the following truth table:
 ## 🧱 Layout in Magic VLSI
 
 <p align="center">
-  <img src="./NAND_Layout.png" width="800" alt="NAND Layout"/>
+  <img src="./NOR_Layout.png" width="800" alt="NOR Layout"/>
 </p>
 <p align="center"><em>Full custom layout using Magic VLSI</em></p>
 
@@ -42,16 +42,16 @@ Its behavior is defined by the following truth table:
 ### 🔹 Input Waveforms
 
 <p align="center">
-  <img src="./NAND_Input.png" width="700" alt="Input waveform"/>
+  <img src="./NOR_Input.png" width="700" alt="Input waveform"/>
 </p>
 
 ### 🔹 Output Waveform (with parasitics)
 
 <p align="center">
-  <img src="./NAND_Output.png" width="700" alt="Output waveform"/>
+  <img src="./NOR_Output.png" width="700" alt="Output waveform"/>
 </p>
 
-The output node `Z` transitions low only when both `A` and `B` are high — matching NAND behavior.  
+The output node `Z` transitions high only when both `A` and `B` are low — matching NOR behavior.  
 Parasitic capacitance extracted from layout (via `ext2spice`) was preserved to reflect real-world electrical effects.
 
 ---
