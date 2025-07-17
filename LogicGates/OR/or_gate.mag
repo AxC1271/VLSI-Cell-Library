@@ -1,0 +1,109 @@
+magic
+tech scmos
+timestamp 1752792620
+<< nwell >>
+rect -6 -6 48 14
+rect 58 -6 95 14
+<< ntransistor >>
+rect 11 -26 14 -18
+rect 28 -26 31 -18
+rect 75 -26 78 -18
+<< ptransistor >>
+rect 11 0 14 8
+rect 28 0 31 8
+rect 75 0 78 8
+<< ndiffusion >>
+rect 0 -19 11 -18
+rect 0 -25 1 -19
+rect 7 -25 11 -19
+rect 0 -26 11 -25
+rect 14 -19 28 -18
+rect 14 -25 18 -19
+rect 24 -25 28 -19
+rect 14 -26 28 -25
+rect 31 -19 42 -18
+rect 31 -25 35 -19
+rect 41 -25 42 -19
+rect 31 -26 42 -25
+rect 64 -19 75 -18
+rect 64 -25 65 -19
+rect 71 -25 75 -19
+rect 64 -26 75 -25
+rect 78 -19 89 -18
+rect 78 -25 82 -19
+rect 88 -25 89 -19
+rect 78 -26 89 -25
+<< pdiffusion >>
+rect 0 7 11 8
+rect 0 1 1 7
+rect 7 1 11 7
+rect 0 0 11 1
+rect 14 0 28 8
+rect 31 7 42 8
+rect 31 1 35 7
+rect 41 1 42 7
+rect 31 0 42 1
+rect 64 7 75 8
+rect 64 1 65 7
+rect 71 1 75 7
+rect 64 0 75 1
+rect 78 7 89 8
+rect 78 1 82 7
+rect 88 1 89 7
+rect 78 0 89 1
+<< ndcontact >>
+rect 1 -25 7 -19
+rect 18 -25 24 -19
+rect 35 -25 41 -19
+rect 65 -25 71 -19
+rect 82 -25 88 -19
+<< pdcontact >>
+rect 1 1 7 7
+rect 35 1 41 7
+rect 65 1 71 7
+rect 82 1 88 7
+<< psubstratepcontact >>
+rect 18 -38 24 -32
+rect 48 -38 54 -32
+<< nsubstratencontact >>
+rect 18 20 24 26
+rect 48 20 54 26
+<< polysilicon >>
+rect 11 8 14 11
+rect 28 8 31 11
+rect 75 8 78 11
+rect 11 -18 14 0
+rect 28 -18 31 0
+rect 75 -9 78 0
+rect 69 -15 78 -9
+rect 75 -18 78 -15
+rect 11 -29 14 -26
+rect 28 -29 31 -26
+rect 75 -29 78 -26
+<< polycontact >>
+rect 63 -15 69 -9
+<< metal1 >>
+rect 1 20 18 26
+rect 24 20 48 26
+rect 54 20 71 26
+rect 1 7 7 20
+rect 65 7 71 20
+rect 35 -9 41 1
+rect 82 -9 88 1
+rect 18 -15 63 -9
+rect 82 -15 94 -9
+rect 18 -19 24 -15
+rect 82 -19 88 -15
+rect 1 -32 7 -25
+rect 35 -32 41 -25
+rect 65 -32 71 -25
+rect 1 -38 18 -32
+rect 24 -38 48 -32
+rect 54 -38 71 -32
+<< labels >>
+rlabel metal1 36 23 36 23 5 vdd
+rlabel polysilicon 12 -16 12 -16 1 A
+rlabel polysilicon 29 -16 29 -16 1 B
+rlabel metal1 38 -35 38 -35 1 gnd
+rlabel metal1 91 -12 91 -12 7 Z
+<< end >>
