@@ -24,7 +24,7 @@ Its behavior is defined by the following truth table:
 <p align="center">
   <img src="./OR_Schematic.png" width="800" alt="OR Schematic"/>
 </p>
-<p align="center"><em>CMOS schematic captured in Xcircuit</em></p>
+<p align="center"><em>CMOS schematic captured in Xcircuit, note that this schematic is just the NOR configuration with its output passed into an inverter.</em></p>
 
 ---
 
@@ -33,7 +33,7 @@ Its behavior is defined by the following truth table:
 <p align="center">
   <img src="./or_layout.png" width="800" alt="OR Layout"/>
 </p>
-<p align="center"><em>Full custom layout using Magic VLSI, note that this schematic is just the NOR configuration with its output passed into an inverter.</em></p>
+<p align="center"><em>Full custom layout using Magic VLSI.</em></p>
 
 ---
 
