@@ -22,7 +22,7 @@ Its behavior is defined by the following truth table:
 ## 🔧 Transistor-Level Schematic
 
 <p align="center">
-  <img src="./AND_Schematic.png" width="800" alt="OR Schematic"/>
+  <img src="./AND_Schematic.png" width="800" alt="AND Schematic"/>
 </p>
 <p align="center"><em>CMOS schematic captured in Xcircuit, note that this schematic is just the NAND configuration with its output passed into an inverter.</em></p>
 
