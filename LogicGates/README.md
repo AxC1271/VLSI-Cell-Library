@@ -49,7 +49,7 @@ This ensures:
 ### Layout (Magic VLSI)
 
 <p align="center">
-  <img src="./NAND/NAND_Layout.png" width="600" />
+  <img src="./NAND/nand_layout.png" width="600" />
 </p>
 <p align="center"><em>Magic VLSI layout (with DRC clean)</em></p>
 
