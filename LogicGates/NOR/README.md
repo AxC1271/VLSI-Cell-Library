@@ -56,11 +56,6 @@ Parasitic capacitance extracted from layout (via `ext2spice`) was preserved to r
 
 ---
 
-## ⚠️ Debugging & Engineering Insight
-
-
----
-
 ## 📁 Files in This Project
 
 | File               | Description                             |
