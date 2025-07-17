@@ -1,4 +1,4 @@
-# VLSI Projects Portfolio
+# VLSI Portfolio
 
 Welcome! This repository showcases my hands-on exploration of CMOS chip design using open-source tools like Magic VLSI, Xschem, ngspice, and netgen. After taking a digital systems design course at Case Western, I became fascinated by VLSI—but quickly realized how scarce beginner-friendly resources were.
 
