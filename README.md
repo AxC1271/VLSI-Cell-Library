@@ -1,38 +1,60 @@
-# VLSI Portfolio
+# 🧠 VLSI Portfolio — Custom CMOS Design with Open-Source Tools
 
-Welcome! This repository showcases my hands-on exploration of CMOS chip design using open-source tools like Magic VLSI, Xschem, ngspice, and netgen. After taking a digital systems design course at Case Western, I became fascinated by VLSI—but quickly realized how scarce beginner-friendly resources were.
+Welcome! This repository showcases my hands-on exploration of full-custom CMOS VLSI design using open-source tools like Magic VLSI, Xschem, ngspice, and netgen.
 
-This repo is my personal initiative to bridge that gap. It’s both a portfolio of what I’ve built and a resource for fellow students or engineers curious about the chip design process. My goal is to keep each README informative and approachable—without being overly technical—for audiences ranging from ECSE students to prospective employers.
+After completing a digital systems design course at Case Western Reserve University, I became fascinated by the chip design process—but quickly realized how scarce beginner-friendly resources were. This repo is both my **portfolio** and a **resource** for other students or engineers exploring VLSI.
 
+My goal is to keep each subproject well-documented and approachable, balancing technical depth with clarity—for everyone from ECSE students to recruiters.
 
-## 🔧 Toolchain Overview
+---
 
-All tools were installed via `apt-get` on Ubuntu. The specific technology node used at this time is the 2002a node from OpenCircuitDesign but will be switched to the sky130A node in the future.
+## 🛠️ Toolchain Overview
 
-### 🖉 Xcircuit
-Used for schematic capture. It helps visualize and construct transistor-level designs. Also provides a spice netlist of the circuit for layout vs. schematic validation with netgen.
+| Tool       | Purpose                                                                 |
+|------------|-------------------------------------------------------------------------|
+| **Xschem** | Schematic capture and SPICE netlist generation                          |
+| **Magic**  | Full-custom layout (diffusion, poly, metal) + layout extraction         |
+| **Netgen** | Layout vs. Schematic (LVS) validation                                   |
+| **ngspice**| SPICE simulations (transient, DC, delay, switching behavior)            |
 
-### 🧱 Magic Layout
-Used to create physical layouts with n-diffusion, p-diffusion, poly, metal layers, etc. It also exports SPICE netlists for simulation.
+- All tools installed via `apt-get` on Ubuntu
+- Technology: **2002a node** from OpenCircuitDesign (will migrate to **sky130A**)
 
-### 📐 Netgen
-Used for Layout vs. Schematic (LVS) checks to ensure that the layout matches the schematic functionally and topologically.
+---
 
-### 📈 ngspice
-Performs SPICE-level simulations to verify circuit behavior (timing, voltage levels, etc.) before fabrication.
+## 📁 Projects
 
-# Projects So Far
-### [1. CMOS Inverter](./CMOSInverter)
-- Designed and simulated a CMOS inverter using Magic and ngspice.
-- Familiarized myself with these tools for VLSI workflow.
+### 🔹 [1. CMOS Inverter](./CMOSInverter)
+> The "Hello World" of VLSI
 
-### [2. Logic Gates (Work in Progress)](./LogicGates)
-- Draw out the transistor schematic layout of NAND, NOR, AND, OR, XOR, and XOR gates.
-- Design the gates mentioned above using Magic VLSI Layout.
-- Verify LVS using netgen then simulate using ngspice.
-- Analyze the propagation delay of each individual gate.
+- Designed and simulated a CMOS inverter
+- Validated DRC and LVS using Magic + Netgen
+- Simulated transient behavior with ngspice
 
-### [3. Memory (Work in Progress)](./MemoryCircuits)
-- Draw out the transistor schematic and layout the SR latch and D flip flop.
-- Verify LVS using netgen then simulate using ngspice.
-- Identify the setup and holdup time of the D flip-flop.
+### 🔹 [2. Logic Gates (WIP)](./LogicGates)
+> Full-custom layout and SPICE simulation of basic gates
+
+- Gates: NAND, NOR, AND, OR, XOR, XNOR
+- Designed schematics in Xschem, laid out in Magic
+- Performed LVS and transient simulations
+- Measured **propagation delay** for each gate
+
+### 🔹 [3. Memory Circuits (WIP)](./MemoryCircuits)
+> Sequential elements from the transistor level up
+
+- SR latch and D flip-flop (schematic + layout)
+- Simulations to identify **setup** and **hold** times
+- Foundation for more complex memory blocks
+
+---
+
+## 📌 Goals
+
+- Explore analog layout by designing a 2-stage op-amp
+- Migrate from the 2002a node to the **Sky130A** PDK
+- Build a reusable standard cell library and small datapath
+- Create a beginner-friendly write-up series on each block
+
+---
+
+Feel free to explore each subfolder for detailed READMEs, layout screenshots, and simulation plots!
