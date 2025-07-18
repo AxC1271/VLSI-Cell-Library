@@ -61,7 +61,7 @@ Parasitic capacitance extracted from layout (via `ext2spice`) was preserved to r
 | File                | Description                            |
 |---------------------|----------------------------------------|
 | `AND_Schematic.png` | Transistor-level schematic (Xcircuit)  |
-| `and_Layout.png`    | Magic VLSI layout                      |
+| `and_layout.png`    | Magic VLSI layout                      |
 | `AND_Output.png`    | Simulated output waveform              |
 | `and_gate.spice`    | SPICE netlist with extracted parasitics|
 | `README.md`         | This documentation                     |
