@@ -50,10 +50,10 @@ My goal is to keep each subproject well-documented and approachable, balancing t
 
 ## 📌 Goals
 
-- Explore analog layout by designing a 2-stage op-amp
-- Migrate from the 2002a node to the **Sky130A** PDK
-- Build a reusable standard cell library and small datapath
-- Create a beginner-friendly write-up series on each block
+- Explore digital, analog, and mixed signal layouts and schematics.
+- Migrate from the 2002a node to the **Sky130A** PDK to potentially have chips manufactured.
+- Build a reusable standard cell library and small datapath.
+- Create a beginner-friendly write-up series on each block.
 
 ---
 
