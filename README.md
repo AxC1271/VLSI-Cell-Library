@@ -31,7 +31,7 @@ My goal is to keep each subproject well-documented and approachable, balancing t
 - Validated DRC and LVS using Magic + Netgen
 - Simulated transient behavior with ngspice
 
-### 🔹 [2. Logic Gates (WIP)](./LogicGates)
+### 🔹 [2. Logic Gates (Almost Done)](./LogicGates)
 > Full-custom layout and SPICE simulation of basic gates
 
 - Gates: NAND, NOR, AND, OR, XOR, XNOR
