@@ -47,7 +47,7 @@ My goal is to keep each subproject well-documented and approachable, balancing t
 - Foundation for more complex memory blocks
 
 ### 🔹 [4. Operation Amplifier (Not Started)](./OperationalAmplifier)
-> First Analog Application using CMOS technology
+> First Analog Subproject using CMOS technology
 
 - Design a two-stage operational amplifier using the Miller compensation technique
 - Analyze the bandwidth, gain, and the output impedance of the operational amplifier
