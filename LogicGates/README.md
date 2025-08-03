@@ -1,6 +1,6 @@
 # 🔲 Logic Gates — CMOS VLSI (Full Custom)
 
-Building on the previous [CMOS Inverter](../Inverter) project, this repository contains full-custom layouts and simulations of basic logic gates: `NAND`, `NOR`, `AND`, `OR`, `XOR`, and `XNOR`.
+Building on the previous [CMOS Inverter](../Inverter) project, this repository contains full-custom layouts and simulations of basic logic gates: `NAND`, `NOR`, `AND`, and `OR`.
 
 Each gate has its own folder with:
 - Custom layout in Magic VLSI
