@@ -67,10 +67,3 @@ Parasitic capacitance extracted from layout (via `ext2spice`) was preserved to r
 | `README.md`         | This documentation                    |
 
 ---
-
-## ✅ Next Steps
-
-- [ ] Implement a 2-input XOR gate
-- [ ] Implement a 2-input XNOR gate
-
-
