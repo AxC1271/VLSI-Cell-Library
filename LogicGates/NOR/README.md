@@ -65,12 +65,3 @@ Parasitic capacitance extracted from layout (via `ext2spice`) was preserved to r
 | `NOR_Output.png`    | Simulated output waveform              |
 | `nor_gate.spice`    | SPICE netlist with extracted parasitics|
 | `README.md`         | This documentation                     |
-
----
-
-## ✅ Next Steps
-
-- [ ] Implement a 2-input OR gate
-- [ ] Implement a 2-input AND gate
-
-
