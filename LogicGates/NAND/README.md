@@ -78,10 +78,3 @@ During testing, I originally used **fast input pulses** in the picosecond range.
 | `README.md`          | This documentation                     |
 
 ---
-
-## ✅ Next Steps
-
-- [ ] Implement a 2-input NOR gate
-- [ ] Simulate XOR using 4 NAND gates
-
-
