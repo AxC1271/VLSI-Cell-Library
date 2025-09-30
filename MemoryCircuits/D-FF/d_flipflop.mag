@@ -1,0 +1,30 @@
+magic
+tech scmos
+timestamp 1759197716
+<< metal1 >>
+rect 150 102 187 107
+rect 0 -41 5 28
+rect 160 -41 165 27
+rect -26 -45 -17 -41
+rect -8 -45 143 -41
+rect 152 -45 165 -41
+use d_latch  d_latch_0
+timestamp 1759165093
+transform 1 0 0 0 1 80
+box 0 -80 150 62
+use d_latch  d_latch_1
+timestamp 1759165093
+transform 1 0 160 0 1 80
+box 0 -80 150 62
+use inverter_schematic  inverter_schematic_0 ~/Documents/vlsi_layouts/cmos_inverter
+timestamp 1752293548
+transform 1 0 -20 0 1 -37
+box -4 -31 16 29
+use inverter_schematic  inverter_schematic_1
+timestamp 1752293548
+transform 1 0 140 0 1 -37
+box -4 -31 16 29
+<< labels >>
+rlabel metal1 -24 -43 -24 -43 3 clk
+rlabel space 24 104 24 104 1 ff_d
+<< end >>
