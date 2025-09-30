@@ -46,7 +46,7 @@ Key characteristics include:
 ### Layout (Magic VLSI)
 
 <p align="center">
-  <img src="./D-FF/d-ff_layout.png" width="600" />
+  <img src="./D-FF/DFFMagicLayout.png" width="600" />
 </p>
 <p align="center"><em>Magic VLSI layout (with DRC clean)</em></p>
 
