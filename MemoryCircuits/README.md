@@ -43,6 +43,10 @@ Key characteristics include:
 </p>
 <p align="center"><em>Magic VLSI layout (with DRC clean)</em></p>
 
+Notice that the flip flop is composed of eight NAND gate cells that we have derived in a previous
+module. Four NAND gate cells in total make a D-latch, and there is a master-slave configuration
+of D-latches to create this D flip-flop.
+
 ---
 
 ## 🧪 Simulation: Spice Models
