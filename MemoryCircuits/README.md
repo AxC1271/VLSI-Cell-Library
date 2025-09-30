@@ -36,13 +36,6 @@ Key characteristics include:
 
 ## 💡 Example: D Flip-Flop
 
-### Transistor-Level Schematic
-
-<p align="center">
-  <img src="./D-FF/D-FF_schematic.png" width="600" />
-</p>
-<p align="center"><em>Master Slave Configuration of D flip-flop</em></p>
-
 ### Layout (Magic VLSI)
 
 <p align="center">
