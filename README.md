@@ -31,7 +31,7 @@ My goal is to keep each subproject well-documented and approachable, balancing t
 - Validated DRC and LVS using Magic + Netgen.
 - Simulated transient behavior with ngspice.
 
-### 🔹 [2. Logic Gates](./CombinationalCells)
+### 🔹 [2. Combinational Logic Cells](./Logic Gates)
 > Full-custom layout and SPICE simulation of basic gates
 
 - Gates: NAND, NOR, AND, OR.
@@ -39,7 +39,7 @@ My goal is to keep each subproject well-documented and approachable, balancing t
 - Performed LVS and transient simulations.
 - Measured **propagation delay** for each gate.
 
-### 🔹 [3. Memory Circuits (WIP)](./SequentialCells)
+### 🔹 [3. Sequential Logic Cells](./MemoryCircuits)
 > Sequential elements from the transistor level up
 
 - SR latch and D flip-flop (schematic + layout).
