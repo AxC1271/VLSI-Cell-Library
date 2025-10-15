@@ -1,6 +1,6 @@
-# 🔲Memory Circuits — CMOS VLSI (Full Custom)
+# 🔲 Sequential Logic — CMOS VLSI (Full Custom)
 
-Building on the previous Logic Gates project, this repository contains full-custom layouts and simulations of fundamental memory circuits: D Flip-Flop and SR Latch.
+Building on the previous Combinational Logic project, this repository contains full-custom layouts and simulations of fundamental memory circuits: D Flip-Flop and SR Latch.
 
 Each circuit has its own folder with:
 - Custom layout in Magic VLSI
