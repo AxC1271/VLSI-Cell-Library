@@ -31,7 +31,7 @@ My goal is to keep each subproject well-documented and approachable, balancing t
 - Validated DRC and LVS using Magic + Netgen.
 - Simulated transient behavior with ngspice.
 
-### 🔹 [2. Logic Gates](./LogicGates)
+### 🔹 [2. Logic Gates](./CombinationalCells)
 > Full-custom layout and SPICE simulation of basic gates
 
 - Gates: NAND, NOR, AND, OR.
@@ -39,26 +39,19 @@ My goal is to keep each subproject well-documented and approachable, balancing t
 - Performed LVS and transient simulations.
 - Measured **propagation delay** for each gate.
 
-### 🔹 [3. Memory Circuits (WIP)](./MemoryCircuits)
+### 🔹 [3. Memory Circuits (WIP)](./SequentialCells)
 > Sequential elements from the transistor level up
 
 - SR latch and D flip-flop (schematic + layout).
 - Create and lay out a single SRAM cell.
 - Simulations to identify **setup** and **hold** times.
 - Foundation for more complex memory blocks.
-
-### 🔹 [4. Operation Amplifier (Not Started)](./OperationalAmplifier)
-> First Analog Subproject using CMOS technology
-
-- Design a two-stage operational amplifier using the Miller compensation technique.
-- Analyze the bandwidth, gain, and the output impedance of the operational amplifier.
-- Explores analog CMOS design and layout.
   
 ---
 
 ## 📌 Goals
 
-- Explore digital, analog, and mixed signal layouts and schematics.
+- Explore digital layouts and schematics.
 - Migrate from the 2002a node to the **Sky130A** PDK to potentially have chips manufactured.
 - Build a reusable standard cell library and small datapath.
 - Create a beginner-friendly write-up series on each block.
