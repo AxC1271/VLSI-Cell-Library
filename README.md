@@ -1,4 +1,4 @@
-# 🧠 VLSI Portfolio — Custom CMOS Design with Open-Source Tools
+# 🧠 VLSI Cell Library — Custom CMOS Design with Open-Source Tools
 
 Welcome! This repository showcases my hands-on exploration of full-custom CMOS VLSI design using open-source tools like Magic VLSI, Xschem, ngspice, and netgen.
 
