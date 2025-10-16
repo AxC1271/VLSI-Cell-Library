@@ -1,0 +1,23 @@
+timestamp 1759196755
+version 8.3
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+use inverter_schematic inverter_schematic_1 1 0 140 0 1 -37
+use inverter_schematic inverter_schematic_0 1 0 -20 0 1 -37
+use d_latch d_latch_1 1 0 160 0 1 80
+use d_latch d_latch_0 1 0 0 0 1 80
+node "clk" 0 635.4 -26 -45 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0 0 0
+node "m1_152_n45#" 1 4577.4 152 -45 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 392 170 0 0 0 0
+node "m1_n8_n45#" 5 11835.9 -8 -45 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 949 448 0 0 0 0
+node "m1_150_102#" 1 2238.3 150 102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 185 84 0 0 0 0
+subcap "m1_n8_n45#" -4979.7
+merge "inverter_schematic_1/A" "d_latch_0/en" -747.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -36 0 0 0 0
+merge "d_latch_0/en" "inverter_schematic_0/Z"
+merge "inverter_schematic_0/Z" "m1_n8_n45#"
+merge "inverter_schematic_0/A" "clk" -374.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "d_latch_1/en" "inverter_schematic_1/Z" -305.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 -18 0 0 0 0
+merge "inverter_schematic_1/Z" "m1_152_n45#"
+merge "d_latch_0/Q" "d_latch_1/d" -688.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -30 0 0 0 0
+merge "d_latch_1/d" "m1_150_102#"

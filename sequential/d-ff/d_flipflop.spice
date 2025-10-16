@@ -1,0 +1,159 @@
+* SPICE3 file created from d_flipflop.ext - technology: scmos
+
+.option scale=0.3u
+.include ./ami05.txt
+
+M1000 d_latch_1/en d_latch_0/en inverter_schematic_1/gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=50 ps=30
+M1001 d_latch_1/en d_latch_0/en inverter_schematic_1/vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1002 d_latch_0/nand_gate_0/vdd d_latch_0/en d_latch_0/nand_gate_2/A d_latch_0/nand_gate_0/w_n6_n6# pfet w=8 l=3
++  ad=176 pd=76 as=112 ps=44
+M1003 d_latch_0/nand_gate_2/A d_latch_0/d d_latch_0/nand_gate_0/vdd d_latch_0/nand_gate_0/w_n6_n6# pfet w=8 l=3
++  ad=0 pd=0 as=0 ps=0
+M1004 d_latch_0/nand_gate_2/A d_latch_0/en d_latch_0/nand_gate_0/a_14_n22# Gnd nfet w=8 l=3
++  ad=88 pd=38 as=112 ps=44
+M1005 d_latch_0/nand_gate_0/a_14_n22# d_latch_0/d d_latch_0/nand_gate_0/gnd Gnd nfet w=8 l=3
++  ad=0 pd=0 as=88 ps=38
+M1006 d_latch_0/nand_gate_1/vdd d_latch_0/nand_gate_2/A d_latch_0/nand_gate_3/A d_latch_0/nand_gate_1/w_n6_n6# pfet w=8 l=3
++  ad=176 pd=76 as=112 ps=44
+M1007 d_latch_0/nand_gate_3/A d_latch_0/en d_latch_0/nand_gate_1/vdd d_latch_0/nand_gate_1/w_n6_n6# pfet w=8 l=3
++  ad=0 pd=0 as=0 ps=0
+M1008 d_latch_0/nand_gate_3/A d_latch_0/nand_gate_2/A d_latch_0/nand_gate_1/a_14_n22# Gnd nfet w=8 l=3
++  ad=88 pd=38 as=112 ps=44
+M1009 d_latch_0/nand_gate_1/a_14_n22# d_latch_0/en d_latch_0/nand_gate_1/gnd Gnd nfet w=8 l=3
++  ad=0 pd=0 as=88 ps=38
+M1010 d_latch_0/nand_gate_2/vdd d_latch_0/Q_not d_latch_1/d d_latch_0/nand_gate_2/w_n6_n6# pfet w=8 l=3
++  ad=176 pd=76 as=112 ps=44
+M1011 d_latch_1/d d_latch_0/nand_gate_2/A d_latch_0/nand_gate_2/vdd d_latch_0/nand_gate_2/w_n6_n6# pfet w=8 l=3
++  ad=0 pd=0 as=0 ps=0
+M1012 d_latch_1/d d_latch_0/Q_not d_latch_0/nand_gate_2/a_14_n22# Gnd nfet w=8 l=3
++  ad=88 pd=38 as=112 ps=44
+M1013 d_latch_0/nand_gate_2/a_14_n22# d_latch_0/nand_gate_2/A d_latch_0/nand_gate_2/gnd Gnd nfet w=8 l=3
++  ad=0 pd=0 as=88 ps=38
+M1014 d_latch_0/nand_gate_3/vdd d_latch_1/d d_latch_0/Q_not d_latch_0/nand_gate_3/w_n6_n6# pfet w=8 l=3
++  ad=176 pd=76 as=112 ps=44
+M1015 d_latch_0/Q_not d_latch_0/nand_gate_3/A d_latch_0/nand_gate_3/vdd d_latch_0/nand_gate_3/w_n6_n6# pfet w=8 l=3
++  ad=0 pd=0 as=0 ps=0
+M1016 d_latch_0/Q_not d_latch_1/d d_latch_0/nand_gate_3/a_14_n22# Gnd nfet w=8 l=3
++  ad=88 pd=38 as=112 ps=44
+M1017 d_latch_0/nand_gate_3/a_14_n22# d_latch_0/nand_gate_3/A d_latch_0/nand_gate_3/gnd Gnd nfet w=8 l=3
++  ad=0 pd=0 as=88 ps=38
+M1018 d_latch_1/nand_gate_0/vdd d_latch_1/en d_latch_1/nand_gate_2/A d_latch_1/nand_gate_0/w_n6_n6# pfet w=8 l=3
++  ad=176 pd=76 as=112 ps=44
+M1019 d_latch_1/nand_gate_2/A d_latch_1/d d_latch_1/nand_gate_0/vdd d_latch_1/nand_gate_0/w_n6_n6# pfet w=8 l=3
++  ad=0 pd=0 as=0 ps=0
+M1020 d_latch_1/nand_gate_2/A d_latch_1/en d_latch_1/nand_gate_0/a_14_n22# Gnd nfet w=8 l=3
++  ad=88 pd=38 as=112 ps=44
+M1021 d_latch_1/nand_gate_0/a_14_n22# d_latch_1/d d_latch_1/nand_gate_0/gnd Gnd nfet w=8 l=3
++  ad=0 pd=0 as=88 ps=38
+M1022 d_latch_1/nand_gate_1/vdd d_latch_1/nand_gate_2/A d_latch_1/nand_gate_3/A d_latch_1/nand_gate_1/w_n6_n6# pfet w=8 l=3
++  ad=176 pd=76 as=112 ps=44
+M1023 d_latch_1/nand_gate_3/A d_latch_1/en d_latch_1/nand_gate_1/vdd d_latch_1/nand_gate_1/w_n6_n6# pfet w=8 l=3
++  ad=0 pd=0 as=0 ps=0
+M1024 d_latch_1/nand_gate_3/A d_latch_1/nand_gate_2/A d_latch_1/nand_gate_1/a_14_n22# Gnd nfet w=8 l=3
++  ad=88 pd=38 as=112 ps=44
+M1025 d_latch_1/nand_gate_1/a_14_n22# d_latch_1/en d_latch_1/nand_gate_1/gnd Gnd nfet w=8 l=3
++  ad=0 pd=0 as=88 ps=38
+M1026 d_latch_1/nand_gate_2/vdd d_latch_1/Q_not d_latch_1/Q d_latch_1/nand_gate_2/w_n6_n6# pfet w=8 l=3
++  ad=176 pd=76 as=112 ps=44
+M1027 d_latch_1/Q d_latch_1/nand_gate_2/A d_latch_1/nand_gate_2/vdd d_latch_1/nand_gate_2/w_n6_n6# pfet w=8 l=3
++  ad=0 pd=0 as=0 ps=0
+M1028 d_latch_1/Q d_latch_1/Q_not d_latch_1/nand_gate_2/a_14_n22# Gnd nfet w=8 l=3
++  ad=88 pd=38 as=112 ps=44
+M1029 d_latch_1/nand_gate_2/a_14_n22# d_latch_1/nand_gate_2/A d_latch_1/nand_gate_2/gnd Gnd nfet w=8 l=3
++  ad=0 pd=0 as=88 ps=38
+M1030 d_latch_1/nand_gate_3/vdd d_latch_1/Q d_latch_1/Q_not d_latch_1/nand_gate_3/w_n6_n6# pfet w=8 l=3
++  ad=176 pd=76 as=112 ps=44
+M1031 d_latch_1/Q_not d_latch_1/nand_gate_3/A d_latch_1/nand_gate_3/vdd d_latch_1/nand_gate_3/w_n6_n6# pfet w=8 l=3
++  ad=0 pd=0 as=0 ps=0
+M1032 d_latch_1/Q_not d_latch_1/Q d_latch_1/nand_gate_3/a_14_n22# Gnd nfet w=8 l=3
++  ad=88 pd=38 as=112 ps=44
+M1033 d_latch_1/nand_gate_3/a_14_n22# d_latch_1/nand_gate_3/A d_latch_1/nand_gate_3/gnd Gnd nfet w=8 l=3
++  ad=0 pd=0 as=88 ps=38
+M1034 d_latch_0/en clk inverter_schematic_0/gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=50 ps=30
+M1035 d_latch_0/en clk inverter_schematic_0/vdd Vdd pfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+C0 d_latch_1/nand_gate_3/gnd Gnd 2.39fF
+C1 d_latch_1/nand_gate_3/vdd Gnd 3.13fF
+C2 d_latch_1/nand_gate_3/w_n6_n6# Gnd 3.89fF
+C3 d_latch_1/nand_gate_2/gnd Gnd 2.39fF
+C4 d_latch_1/Q Gnd 3.68fF
+C5 d_latch_1/Q_not Gnd 6.94fF
+C6 d_latch_1/nand_gate_2/vdd Gnd 3.13fF
+C7 d_latch_1/nand_gate_2/w_n6_n6# Gnd 3.89fF
+C8 d_latch_1/nand_gate_1/gnd Gnd 2.39fF
+C9 d_latch_1/nand_gate_3/A Gnd 3.63fF
+C10 d_latch_1/nand_gate_1/vdd Gnd 3.13fF
+C11 d_latch_1/nand_gate_1/w_n6_n6# Gnd 3.89fF
+C12 d_latch_1/nand_gate_0/gnd Gnd 2.39fF
+C13 d_latch_1/nand_gate_2/A Gnd 8.52fF
+C14 d_latch_1/en Gnd 14.70fF
+C15 d_latch_1/nand_gate_0/vdd Gnd 3.13fF
+C16 d_latch_1/nand_gate_0/w_n6_n6# Gnd 3.89fF
+C17 d_latch_0/nand_gate_3/gnd Gnd 2.39fF
+C18 d_latch_0/nand_gate_3/vdd Gnd 3.13fF
+C19 d_latch_0/nand_gate_3/w_n6_n6# Gnd 3.89fF
+C20 d_latch_0/nand_gate_2/gnd Gnd 2.39fF
+C21 d_latch_1/d Gnd 6.03fF
+C22 d_latch_0/Q_not Gnd 6.94fF
+C23 d_latch_0/nand_gate_2/vdd Gnd 3.13fF
+C24 d_latch_0/nand_gate_2/w_n6_n6# Gnd 3.89fF
+C25 d_latch_0/nand_gate_1/gnd Gnd 2.39fF
+C26 d_latch_0/nand_gate_3/A Gnd 3.63fF
+C27 d_latch_0/nand_gate_1/vdd Gnd 3.13fF
+C28 d_latch_0/nand_gate_1/w_n6_n6# Gnd 3.89fF
+C29 d_latch_0/nand_gate_0/gnd Gnd 2.39fF
+C30 d_latch_0/nand_gate_2/A Gnd 8.52fF
+C31 d_latch_0/en Gnd 17.66fF
+C32 d_latch_0/nand_gate_0/vdd Gnd 3.13fF
+C33 d_latch_0/nand_gate_0/w_n6_n6# Gnd 3.89fF
+
+.global Vpower Gnd
+Vdd Vpower Gnd 3.3
+
+* master latch (d_latch_0) power
+Vvdd_m0 d_latch_0/nand_gate_0/vdd Vpower 0
+Vvdd_m1 d_latch_0/nand_gate_1/vdd Vpower 0
+Vvdd_m2 d_latch_0/nand_gate_2/vdd Vpower 0
+Vvdd_m3 d_latch_0/nand_gate_3/vdd Vpower 0
+Vgnd_m0 d_latch_0/nand_gate_0/gnd Gnd 0
+Vgnd_m1 d_latch_0/nand_gate_1/gnd Gnd 0
+Vgnd_m2 d_latch_0/nand_gate_2/gnd Gnd 0
+Vgnd_m3 d_latch_0/nand_gate_3/gnd Gnd 0
+
+* slave latch (d_latch_1) power
+Vvdd_s0 d_latch_1/nand_gate_0/vdd Vpower 0
+Vvdd_s1 d_latch_1/nand_gate_1/vdd Vpower 0
+Vvdd_s2 d_latch_1/nand_gate_2/vdd Vpower 0
+Vvdd_s3 d_latch_1/nand_gate_3/vdd Vpower 0
+Vgnd_s0 d_latch_1/nand_gate_0/gnd Gnd 0
+Vgnd_s1 d_latch_1/nand_gate_1/gnd Gnd 0
+Vgnd_s2 d_latch_1/nand_gate_2/gnd Gnd 0
+Vgnd_s3 d_latch_1/nand_gate_3/gnd Gnd 0
+
+* inverter power
+Vvdd_inv0 inverter_schematic_0/vdd Vpower 0
+Vgnd_inv0 inverter_schematic_0/gnd Gnd 0
+Vvdd_inv1 inverter_schematic_1/vdd Vpower 0
+Vgnd_inv1 inverter_schematic_1/gnd Gnd 0
+
+* clock: 3 pulses, 150ns period, 60ns high / 90ns low
+Vin_clk clk 0 PULSE(0 3.3 0n 0.1n 0.1n 60n 150n)
+
+* d starts HIGH, then goes LOW at 30ns (while clock is HIGH!)
+Vin_d d_latch_0/d 0 PULSE(3.3 0 30n 0.1n 0.1n 400n 1000n)
+
+* transient simulation
+.tran 0.1n 400n
+
+.control
+run
+plot clk
+plot v(d_latch_0/d) 
+plot v(d_latch_1/q) 
+plot v(d_latch_1/q_not) 
+.endc
+
+.end
