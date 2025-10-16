@@ -1,4 +1,7 @@
 # 🏛️ The Cell Museum
+<p align="center">
+  <img src="./CellMuseum.png" height=400px />
+</p>
 
 A curated collection of custom VLSI standard cells, designed from transistors to layout with complete verification.
 
