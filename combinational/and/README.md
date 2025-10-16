@@ -24,7 +24,7 @@ Its behavior is defined by the following truth table:
 <p align="center">
   <img src="./and_schematic.png" width="800" alt="AND Schematic"/>
 </p>
-<p align="center"><em>CMOS schematic captured in Xcircuit, note that this schematic is just the NAND configuration with its output passed into an inverter.</em></p>
+<p align="center"><em>CMOS schematic captured in Xschem, note that this schematic is just the NAND configuration with its output passed into an inverter.</em></p>
 
 ---
 
