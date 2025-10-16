@@ -1,4 +1,4 @@
-# 🧠 VLSI Cell Library — Custom CMOS Design with Open-Source Tools
+# 🧠 Cell Museum — Custom CMOS Design with Open-Source Tools
 
 Welcome! This repository showcases my hands-on exploration of full-custom CMOS VLSI design using open-source tools like Magic VLSI, Xschem, ngspice, and netgen.
 
@@ -42,7 +42,7 @@ My goal is to keep each subproject well-documented and approachable, balancing t
 ### 🔹 [3. Sequential Logic Cells](./MemoryCircuits)
 > Sequential elements from the transistor level up
 
-- SR latch and D flip-flop (schematic + layout).
+- D latch and D flip-flop (schematic + layout).
 - Create and lay out a single SRAM cell.
 - Simulations to identify **setup** and **hold** times.
 - Foundation for more complex memory blocks.
