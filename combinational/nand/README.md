@@ -1,7 +1,7 @@
 # 🔲 CMOS NAND Gate — Full Custom Design
 
 This project implements a **CMOS NAND gate** using a full custom flow:  
-From schematic capture in Xschem, layout in Magic VLSI, and simulation using ngspice (with parasitic extraction).
+From schematic capture in Xschem, layout and DRC in Magic VLSI, LVS using netgen, and simulation using ngspice (with parasitic extraction).
 
 ---
 
