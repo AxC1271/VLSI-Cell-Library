@@ -87,7 +87,7 @@ Through this project, I gained hands-on experience with:
 ## 🔗 Related Projects
 
 - **[RISC-V Processor](https://github.com/AxC1271/RISCV-CPU)** - My 32-bit processor uses these exact building blocks conceptually—now I understand them at the transistor level.
-- **[Clock Domain Crossing Library](https://github.com/AxC1271/CDC-Guide)** - Educational resource on CDC synchronizers, validated using these sequential cells.
+- **[Clock Domain Crossing Library](https://github.com/AxC1271/ClockCrossing)** - Educational resource on CDC synchronizers, validated using these sequential cells.
 - **[Tiny Tapeout Submission](link)** - Applying these cells to design real silicon (chip currently in fabrication)
 
 ---
