@@ -1,11 +1,11 @@
 # 🔲 Logic Gates — CMOS VLSI (Full Custom)
 
 This `combinational` repository contains full-custom layouts and simulations of basic logic gates: 'NOT', `NAND`, `NOR`, 
-`AND`, `OR`, 'XOR', and a simple `2:1 multiplexer`.
+`AND`, `OR`, `XOR`, and a simple `2:1 multiplexer`.
 
 Each gate has its own folder with:
 - Custom layout in Magic VLSI
-- Schematic in Xcircuit
+- Schematic in Xschem
 - LVS checks with Netgen
 - SPICE simulation using ngspice
 - Parasitic-aware analysis
@@ -18,7 +18,7 @@ Each gate has its own folder with:
 |-------------|-----------------------------------------|
 | Magic VLSI  | Physical layout and netlist extraction  |
 | ngspice     | Transient simulation of SPICE netlists  |
-| Xcircuit    | Schematic capture and SPICE export      |
+| Xschem      | Schematic capture and SPICE export      |
 | netgen      | LVS comparison between layout and schematic |
 
 ---
