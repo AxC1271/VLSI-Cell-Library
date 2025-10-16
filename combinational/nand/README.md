@@ -21,7 +21,7 @@ The NAND gate is a universal logic gate — all digital systems can be built usi
 ## 🔧 Transistor-Level Schematic
 
 <p align="center">
-  <img src="./NAND_Schematic.png" width="800" alt="NAND Schematic"/>
+  <img src="./nand_schematic.png" width="800" alt="NAND Schematic"/>
 </p>
 <p align="center"><em>CMOS schematic captured in Xcircuit</em></p>
 
@@ -41,13 +41,13 @@ The NAND gate is a universal logic gate — all digital systems can be built usi
 ### 🔹 Input Waveforms
 
 <p align="center">
-  <img src="./NAND_Input.png" width="700" alt="Input waveform"/>
+  <img src="./nand_input.png" width="700" alt="Input waveform"/>
 </p>
 
 ### 🔹 Output Waveform (with parasitics)
 
 <p align="center">
-  <img src="./NAND_Output.png" width="700" alt="Output waveform"/>
+  <img src="./nand_output.png" width="700" alt="Output waveform"/>
 </p>
 
 The output node `Z` transitions low only when both `A` and `B` are high — matching NAND behavior.  
