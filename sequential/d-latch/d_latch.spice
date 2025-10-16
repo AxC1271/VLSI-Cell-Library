@@ -1,0 +1,84 @@
+* SPICE3 file created from /home/parallels/Documents/vlsi_layouts/memory/d_latch/d_latch.ext - technology: scmos
+
+.include ./ami05.txt
+
+Vdd Vpower gnd 3.3
+
+
+
+.option scale=0.3u
+
+M1000 nand_gate_0/vdd en nand_gate_2/A nand_gate_0/w_n6_n6# pfet w=8 l=3
++  ad=176 pd=76 as=112 ps=44
+M1001 nand_gate_2/A d nand_gate_0/vdd nand_gate_0/w_n6_n6# pfet w=8 l=3
++  ad=0 pd=0 as=0 ps=0
+M1002 nand_gate_2/A en nand_gate_0/a_14_n22# Gnd nfet w=8 l=3
++  ad=88 pd=38 as=112 ps=44
+M1003 nand_gate_0/a_14_n22# d nand_gate_0/gnd Gnd nfet w=8 l=3
++  ad=0 pd=0 as=88 ps=38
+M1004 nand_gate_1/vdd nand_gate_2/A nand_gate_3/A nand_gate_1/w_n6_n6# pfet w=8 l=3
++  ad=176 pd=76 as=112 ps=44
+M1005 nand_gate_3/A en nand_gate_1/vdd nand_gate_1/w_n6_n6# pfet w=8 l=3
++  ad=0 pd=0 as=0 ps=0
+M1006 nand_gate_3/A nand_gate_2/A nand_gate_1/a_14_n22# Gnd nfet w=8 l=3
++  ad=88 pd=38 as=112 ps=44
+M1007 nand_gate_1/a_14_n22# en nand_gate_1/gnd Gnd nfet w=8 l=3
++  ad=0 pd=0 as=88 ps=38
+M1008 nand_gate_2/vdd Q_not Q nand_gate_2/w_n6_n6# pfet w=8 l=3
++  ad=176 pd=76 as=112 ps=44
+M1009 Q nand_gate_2/A nand_gate_2/vdd nand_gate_2/w_n6_n6# pfet w=8 l=3
++  ad=0 pd=0 as=0 ps=0
+M1010 Q Q_not nand_gate_2/a_14_n22# Gnd nfet w=8 l=3
++  ad=88 pd=38 as=112 ps=44
+M1011 nand_gate_2/a_14_n22# nand_gate_2/A nand_gate_2/gnd Gnd nfet w=8 l=3
++  ad=0 pd=0 as=88 ps=38
+M1012 nand_gate_3/vdd Q Q_not nand_gate_3/w_n6_n6# pfet w=8 l=3
++  ad=176 pd=76 as=112 ps=44
+M1013 Q_not nand_gate_3/A nand_gate_3/vdd nand_gate_3/w_n6_n6# pfet w=8 l=3
++  ad=0 pd=0 as=0 ps=0
+M1014 Q_not Q nand_gate_3/a_14_n22# Gnd nfet w=8 l=3
++  ad=88 pd=38 as=112 ps=44
+M1015 nand_gate_3/a_14_n22# nand_gate_3/A nand_gate_3/gnd Gnd nfet w=8 l=3
++  ad=0 pd=0 as=88 ps=38
+C0 nand_gate_3/gnd Gnd 2.39fF
+C1 Q_not Gnd 6.94fF
+C2 Q Gnd 3.68fF
+C3 nand_gate_3/A Gnd 3.63fF
+C4 nand_gate_3/vdd Gnd 3.13fF
+C5 nand_gate_3/w_n6_n6# Gnd 3.89fF
+C6 nand_gate_2/gnd Gnd 2.39fF
+C7 nand_gate_2/A Gnd 8.52fF
+C8 nand_gate_2/vdd Gnd 3.13fF
+C9 nand_gate_2/w_n6_n6# Gnd 3.89fF
+C10 nand_gate_1/gnd Gnd 2.39fF
+C11 en Gnd 8.86fF
+C12 nand_gate_1/vdd Gnd 3.13fF
+C13 nand_gate_1/w_n6_n6# Gnd 3.89fF
+C14 nand_gate_0/gnd Gnd 2.39fF
+C15 nand_gate_0/vdd Gnd 3.13fF
+C16 nand_gate_0/w_n6_n6# Gnd 3.89fF
+
+.global Vpower gnd
+Vvdd0 nand_gate_0/vdd Vpower 0
+Vvdd1 nand_gate_1/vdd Vpower 0
+Vvdd2 nand_gate_2/vdd Vpower 0
+Vvdd3 nand_gate_3/vdd Vpower 0
+
+Vgnd0 nand_gate_0/gnd gnd 0
+Vgnd1 nand_gate_1/gnd gnd 0
+Vgnd2 nand_gate_2/gnd gnd 0
+Vgnd3 nand_gate_3/gnd gnd 0
+
+Vin_d d 0 PULSE(0 3.3 1n 0.1n 0.1n 10n 20n)
+Vin_en en 0 PULSE(0 3.3 0n 0.1n 0.1n 40n 80n)
+
+.tran 0.1n 200n
+.control
+run
+plot d
+plot en
+plot Q
+plot Q_not
+.endc
+
+.end
