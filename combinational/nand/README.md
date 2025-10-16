@@ -1,7 +1,7 @@
 # 🔲 CMOS NAND Gate — Full Custom Design
 
 This project implements a **CMOS NAND gate** using a full custom flow:  
-From schematic capture in Xcircuit, layout in Magic VLSI, and simulation using ngspice (with parasitic extraction).
+From schematic capture in Xschem, layout in Magic VLSI, and simulation using ngspice (with parasitic extraction).
 
 ---
 
@@ -23,7 +23,7 @@ The NAND gate is a universal logic gate — all digital systems can be built usi
 <p align="center">
   <img src="./nand_schematic.png" width="800" alt="NAND Schematic"/>
 </p>
-<p align="center"><em>CMOS schematic captured in Xcircuit</em></p>
+<p align="center"><em>CMOS schematic captured in Xschem</em></p>
 
 ---
 
@@ -71,9 +71,9 @@ During testing, I originally used **fast input pulses** in the picosecond range.
 
 | File               | Description                             |
 |--------------------|-----------------------------------------|
-| `NAND_Schematic.png` | Transistor-level schematic (Xcircuit)  |
-| `NAND_Layout.png`    | Magic VLSI layout                      |
-| `NAND_Output.png`    | Simulated output waveform              |
+| `nand_schematic.png` | Transistor-level schematic (Xschem)    |
+| `nand_layout.png`    | Magic VLSI layout                      |
+| `nand_uutput.png`    | Simulated output waveform              |
 | `nand_gate.spice`    | SPICE netlist with extracted parasitics|
 | `README.md`          | This documentation                     |
 
