@@ -69,7 +69,7 @@ This complementary behavior ensures low static power and fast switching.
 ### 🧱 Layout (Magic VLSI)
 
 <div align="center">
-  <img src="./CMOSInverterLayout.png" alt="CMOS Inverter Layout" width="400"/>
+  <img src="./inverter_layout.png" alt="CMOS Inverter Layout" width="400"/>
 </div>
 
 - Drawn using n-diffusion, p-diffusion, poly, and metal layers.
@@ -118,7 +118,7 @@ These models include realistic second-order effects: mobility degradation, veloc
 ### 📈 Simulation (ngspice)
 
 <div align="center">
-  <img src="./SimulationWaveForm.png" alt="CMOS Inverter Waveform" width="600"/>
+  <img src="./waveform.png" alt="CMOS Inverter Waveform" width="600"/>
 </div>
 
 The inverter demonstrates standard logic behavior:
@@ -129,31 +129,6 @@ The blue waveform is the output while the red waveform is the input pulse, which
 The inverter behaves as expected — producing a clean logic inversion with minimal delay or distortion, even with modestly sized transistors.
 
 ---
-
-### ✅ Takeaways
-
-1. Demonstrates a full flow for designing and simulating a CMOS gate
-
-2. Establishes foundation for scaling to larger gates (NAND, NOR, XOR)
-
-3. Introduces critical tools used in open-source VLSI
-
---- 
-
-### 🚀 Next Steps
-Future ideas to build on this project:
-
-1. 🔁 Design a ring oscillator and measure delay
-
-2. 🔨 Create a CMOS NAND and NOR gate layout
-
-3. 🧠 Simulate inverter chains and extract propagation delay
-
-4. 🔎 Run LVS with netgen
-
-5. 📐 Explore parasitic capacitance extraction and performance tuning
-
---- 
 
 ### Closing Notes
 
