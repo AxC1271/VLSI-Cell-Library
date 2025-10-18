@@ -73,9 +73,8 @@ Through this project, I gained hands-on experience with:
 
 ## 🔗 Related Projects
 
-- **[RISC-V Processor](https://github.com/AxC1271/RISCV-CPU)** - My 32-bit processor uses these exact building blocks conceptually—now I understand them at the transistor level.
-- **[Clock Crossing](https://github.com/AxC1271/ClockCrossing)** - Educational resource on CDC synchronizers, validated using these sequential cells.
-- **[Tiny Tapeout Submission](link)** - Applying these cells to design real silicon (chip currently in fabrication)
+- **[RISC-V Processor](https://github.com/AxC1271/RISCV-CPU)** - My 32-bit processor uses these exact building blocks conceptually.
+- **[Clock Crossing](https://github.com/AxC1271/ClockCrossing)** - Educational resource on CDC synchronizers.
 
 ---
 
@@ -86,28 +85,6 @@ Through this project, I gained hands-on experience with:
 git clone https://github.com/yourusername/cell-museum.git
 cd cell-museum
 ```
-
-**Prerequisites:**
-- Magic VLSI
-- Xschem
-- ngspice
-- Netgen
-- Sky130 PDK
-
-**Self-guided tour:**
-Each cell folder contains a detailed README with schematics, layouts, simulation results, and design notes. Start with the [Inverter](./combinational/inverter/) and work your way through!
-
----
-
-## 📸 Contributing
-
-Found an optimization? Have a suggestion? Feel free to open an issue or submit a pull request. This is a learning project, and I welcome feedback from the VLSI community.
-
----
-
-## 📝 License
-
-This project is open source and available for educational purposes. If you use these designs in your work, attribution is appreciated!
 
 ---
 
