@@ -1,6 +1,6 @@
 # 🔲 Logic Gates — CMOS VLSI (Full Custom)
 
-This `combinational` repository contains full-custom layouts and simulations of basic logic gates: 'NOT', `NAND`, `NOR`, 
+This `combinational` repository contains full-custom layouts and simulations of basic logic gates: `NOT`, `NAND`, `NOR`, 
 `AND`, `OR`, `XOR`, and a simple `2:1 multiplexer`.
 
 Each gate has its own folder with:
