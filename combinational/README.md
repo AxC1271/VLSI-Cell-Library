@@ -73,7 +73,7 @@ Simulation uses BSIM3 Level-49 models from the SCMOS `ami05` 0.5µm process.
 ---
 
 ## 🚀 Next Steps
-- Design memory circuits (D flip-flop, SR latch) using Xcircuit and Magic
+- Design memory circuits (D flip-flop, D latch) using Xcircuit and Magic
 - Design, build, and test a ring oscillator. Analyze the frequency and the propagation delay of the inverter
 - Apply the layout of logic gates to larger circuits like multiplexers, adders, and ALU's.
 
