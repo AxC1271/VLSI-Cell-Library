@@ -3,30 +3,23 @@
   <img src="./CellMuseum.png" height=400px />
 </p>
 
-A curated collection of custom VLSI standard cells, designed from transistors to layout with complete verification.
+This is a personal collection of custom VLSI standard cells that I made using Xschem (schematic), Magic (layout), ngspice (simulation), and with netgen (complete verification). As a computer
+engineering student at Case, I grew interested in CMOS IC design but felt discouraged because tools like Cadence Virtuoso are extremely expensive and not easily accessible to most students.
 
-**Welcome to the museum!** Each "exhibit" is a fully characterized digital cell—from basic logic gates to sequential elements—designed using open-source EDA tools. This project documents my journey learning IC design from the ground up.
-
----
-
-## 🎯 Project Goals
-
-Learn the complete IC design flow: **schematic → simulation → layout → verification → characterization**
-
-This isn't just about creating cells—it's about understanding the *why* behind every design decision, from transistor sizing to parasitic extraction.
+**Welcome to the museum!** Each "exhibit" is a fully characterized digital cell: from basic logic gates to sequential elements, designed using open-source EDA tools. This project documents my journey learning IC design from the ground up.
 
 ---
 
 ## 📚 Exhibits (Cells)
 
 ### Combinational Logic
-- [Inverter](./combinational/inverter/) - The fundamental building block
-- [NAND Gate](./combinational/nand/) - Universal gate implementation
+- [Inverter](./combinational/inverter/) - The Hello World
+- [NAND Gate](./combinational/nand/) - The Universal Gate
 - [NOR Gate](./combinational/nor/) - Dual of NAND, efficient pull-up network
 - [AND Gate](./combinational/and/) - NAND followed by inversion
 - [OR Gate](./combinational/or/) - NOR followed by inversion
 - [XOR Gate](./combinational/xor/) - Transmission gate implementation for efficiency
-- [2:1 Multiplexer](./combinational/mux2/) - Datapath selection element
+- [2:1 Multiplexer](./combinational/mux2/) - Input selector
 
 ### Arithmetic
 - [Full Adder](./arithmetic/full_adder/) - 1-bit addition with carry propagation
@@ -47,12 +40,6 @@ This isn't just about creating cells—it's about understanding the *why* behind
 | **ngspice** | Circuit simulation and timing analysis |
 | **Netgen** | Layout vs. Schematic (LVS) verification |
 | **PDK** | Sky130 (SkyWater 130nm open-source PDK) |
-
-**Design Flow:**
-```
-Schematic (Xschem) → Simulation (ngspice) → Layout (Magic) → 
-DRC → LVS (Netgen) → Parasitic Extraction → Post-layout Simulation
-```
 
 ---
 
