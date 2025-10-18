@@ -43,33 +43,16 @@ engineering student at Case, I grew interested in CMOS IC design but felt dishea
 
 ---
 
-## 📊 Documentation Standard
+## 📊 Documentation
 
 Each cell includes comprehensive documentation:
 
 ✅ **Transistor-level schematic** - Clear, annotated diagrams  
 ✅ **Optimized layout** - DRC-clean with area efficiency considerations  
-✅ **Pre-layout simulation** - Ideal behavior without parasitics  
-✅ **Post-layout simulation** - Real-world performance with extracted R/C  
-✅ **DRC verification report** - Zero violations  
+✅ **Layout simulation** - Real-world performance with extracted R/C  
+✅ **DRC verification report** - Zero violations with spacing 
 ✅ **LVS verification report** - Schematic-layout matching confirmed  
 ✅ **Timing characterization** - Measured delays, setup/hold times, power consumption  
-
----
-
-## 🎓 What I Learned
-
-Through this project, I gained hands-on experience with:
-
-- **Parasitic effects**: Understanding how layout choices directly impact timing and power
-- **Layout optimization**: Balancing area, speed, and power through careful transistor placement and routing
-- **Timing characterization**: Experimental measurement of setup/hold times and propagation delays
-- **Design trade-offs**: Choosing between different implementations (e.g., transmission gates vs. CMOS logic for XOR)
-- **Verification methodology**: The critical importance of DRC/LVS in catching design errors early
-
-**Key insight**: Simulation is only as good as your models. Post-layout extraction revealed significant timing differences that would have caused failures in silicon.
-
----
 
 ## 🔗 Related Projects
 
