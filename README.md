@@ -45,7 +45,7 @@ engineering student at Case, I grew interested in CMOS IC design but felt dishea
 
 ## 📊 Documentation
 
-Each cell includes comprehensive documentation:
+Each cell includes documentation for the following steps:
 
 ✅ **Transistor-level schematic** - Clear, annotated diagrams  
 ✅ **Optimized layout** - DRC-clean with area efficiency considerations  
