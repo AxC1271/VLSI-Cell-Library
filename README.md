@@ -50,7 +50,7 @@ Each cell includes comprehensive documentation:
 ✅ **Transistor-level schematic** - Clear, annotated diagrams  
 ✅ **Optimized layout** - DRC-clean with area efficiency considerations  
 ✅ **Layout simulation** - Real-world performance with extracted R/C  
-✅ **DRC verification report** - Zero violations with spacing 
+✅ **DRC verification report** - Zero violations with spacing <br>
 ✅ **LVS verification report** - Schematic-layout matching confirmed  
 ✅ **Timing characterization** - Measured delays, setup/hold times, power consumption  
 
