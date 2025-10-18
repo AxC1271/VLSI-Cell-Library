@@ -6,7 +6,7 @@
 **Welcome to the museum!** Each "exhibit" is a fully characterized digital cell: from basic logic gates to sequential elements, designed using open-source EDA tools. This project documents my journey learning IC design from the ground up.
 
 This is a personal collection of custom VLSI standard cells that I made using Xschem (schematic), Magic (layout), ngspice (simulation), and with netgen (complete verification). As a computer
-engineering student at Case, I grew interested in CMOS IC design but felt disheartened because industry tools like Cadence Virtuoso are extremely expensive and not easily accessible to most students. Luckily, the tools I used for this project are all open source and can be easily installed using `apt-get` commands on Ubuntu Linux. A file with instructions on how to install all of these tools will be included in this GitHub repository.
+engineering student at Case, I grew interested in CMOS IC design but felt disheartened because industry tools like Cadence Virtuoso are extremely expensive and not easily accessible to most students. Luckily, the tools I used for this project are all open source and can be easily installed using `apt-get` commands on Ubuntu Linux. Check the `download_instructions.txt` file in the repo to see how to download these open source tools!
 
 ---
 
