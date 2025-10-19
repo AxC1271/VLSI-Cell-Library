@@ -73,6 +73,14 @@ This complementary behavior ensures low static power and fast switching.
 ---
 
 ### 🧱 Layout (Magic VLSI)
+First we draw out our N-channel and P-channel MOSFETs while making sure we don't get any DRC checks, such as n-diffusion layers
+meeting a minimum width requirement, the N-well needing to have a minimum size around the P-channel MOSFET, etc.
+
+<div align="center">
+  <img src="./nmospmos_layout.png" alt="Basic Transistors" width="400"/>
+</div>
+
+Based on our inverter schematic, if we connect the gates and sources of each respective gate then we can form the inverter.
 
 <div align="center">
   <img src="./inverter_layout.png" alt="Inverter Layout" width="400"/>
