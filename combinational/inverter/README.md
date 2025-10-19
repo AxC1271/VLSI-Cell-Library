@@ -70,6 +70,10 @@ This complementary behavior ensures low static power and fast switching.
   <img src="./inverter_schematic.png" alt="Inverter Schematic" width="400"/>
 </div>
 
+Here's a basic schematic of the inverter using Xschem. The TT_Models is there to determine
+what kind of simulation will be used to test the inverter. There are other models that perform
+corner analysis but since this is a simple inverter, I decided to use a standard simulation.
+
 ---
 
 ### 🧱 Layout (Magic VLSI)
@@ -77,10 +81,11 @@ First we draw out our N-channel and P-channel MOSFETs while making sure we don't
 meeting a minimum width requirement, the N-well needing to have a minimum size around the P-channel MOSFET, etc.
 
 <div align="center">
-  <img src="./nmospmos_layout.png" alt="Basic Transistors" width="400"/>
+  <img src="./nmos_pmos.png" alt="Basic Transistors" width="400"/>
 </div>
 
-Based on our inverter schematic, if we connect the gates and sources of each respective gate then we can form the inverter.
+After making our PMOS and NMOS, we are ready to make our inverter! Based on our inverter schematic, 
+if we connect the gates and sources of each respective gate then we can form the inverter.
 
 <div align="center">
   <img src="./inverter_layout.png" alt="Inverter Layout" width="400"/>
