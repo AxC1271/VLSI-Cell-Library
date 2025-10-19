@@ -70,7 +70,6 @@ This complementary behavior ensures low static power and fast switching.
   <img src="./inverter_schematic.png" alt="Inverter Schematic" width="400"/>
 </div>
 
-- Drawn using just two transistors, a PMOS and an NMOS with their drains connected.
 ---
 
 ### 🧱 Layout (Magic VLSI)
