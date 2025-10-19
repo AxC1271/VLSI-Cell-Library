@@ -1,6 +1,6 @@
 # CMOS Inverter
 
-As the "Hello World" of CMOS VLSI design, this project implements a **CMOS inverter** using open-source tools. It demonstrates a full-custom flow, from schematic capture and simulation to layout and layout-vs-schematic (LVS) verification.
+As the "Hello World" of CMOS VLSI design, this project implements an **inverter** using open-source tools. It demonstrates a full-custom flow, from schematic capture and simulation to layout and layout-vs-schematic (LVS) verification.
 
 The goal is to explore basic CMOS behavior and get familiar with digital custom design flows using open tools — similar to those used in industry and academia.
 
@@ -21,17 +21,16 @@ The goal is to explore basic CMOS behavior and get familiar with digital custom 
       <td>Transient simulation of SPICE netlist</td>
     </tr>
     <tr>
-      <td><em>(Optional)</em> Xcircuit</td>
+      <td>Xschem</td>
       <td>Schematic capture and SPICE export</td>
     </tr>
     <tr>
-      <td><em>(Optional)</em> netgen</td>
+      <td>netgen</td>
       <td>LVS comparison between layout and schematic</td>
     </tr>
   </table>
 </div>
 
-> 📝 **Note:** Xschem and netgen are not strictly required for this inverter — the schematic can be described manually in SPICE, and LVS can be skipped for such a small circuit.
 ---
 
 ### 🧠 CMOS Inverter Theory
@@ -66,10 +65,18 @@ This complementary behavior ensures low static power and fast switching.
 
 ---
 
+### Schematic (Xschem)
+<div align="center">
+  <img src="./inverter_schematic.png" alt="Inverter Schematic" width="400"/>
+</div>
+
+- Drawn using just two transistors, a PMOS and an NMOS with their drains connected.
+---
+
 ### 🧱 Layout (Magic VLSI)
 
 <div align="center">
-  <img src="./inverter_layout.png" alt="CMOS Inverter Layout" width="400"/>
+  <img src="./inverter_layout.png" alt="Inverter Layout" width="400"/>
 </div>
 
 - Drawn using n-diffusion, p-diffusion, poly, and metal layers.
