@@ -81,7 +81,7 @@ First we draw out our N-channel and P-channel MOSFETs while making sure we don't
 meeting a minimum width requirement, the N-well needing to have a minimum size around the P-channel MOSFET, etc.
 
 <div align="center">
-  <img src="./nmos_pmos.png" alt="Basic Transistors" width="400"/>
+  <img src="./pmos_nmos.png" alt="Basic Transistors" width="400"/>
 </div>
 
 After making our PMOS and NMOS, we are ready to make our inverter! Based on our inverter schematic, 
