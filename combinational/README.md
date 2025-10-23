@@ -43,14 +43,14 @@ This ensures:
 ### Transistor-Level Schematic
 
 <p align="center">
-  <img src="./nand/nand_schematic.png" width="600" />
+  <img src="./inverter/inverter_schematic.png" width="600" />
 </p>
-<p align="center"><em>2-input NAND schematic (Xcircuit)</em></p>
+<p align="center"><em>2-input NAND schematic (Xschem)</em></p>
 
 ### Layout (Magic VLSI)
 
 <p align="center">
-  <img src="./nand/nand_layout.png" width="600" />
+  <img src="./inverter/inverter_layout.png" width="600" />
 </p>
 <p align="center"><em>Magic VLSI layout (with DRC clean)</em></p>
 
