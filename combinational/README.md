@@ -61,8 +61,8 @@ This ensures:
 Simulation uses the Sky130A PDK technology node.
 
 ```spice
-.model nfet NMOS (LEVEL=49 VTH0=0.71 U0=533 ...)
-.model pfet PMOS (LEVEL=49 VTH0=-0.92 U0=202 ...)
+device msubckt sky130_fd_pr__nfet_01v8 0 0 1 1 l=15 w=95 "Gnd" "Vin" 30 0 "Gnd" 95 4750,290 "Vout" 95 4750,290
+device msubckt sky130_fd_pr__pfet_01v8 0 150 1 151 l=15 w=95 "Vdd" "Vin" 30 0 "Vdd" 95 4750,290 "Vout" 95 4750,290
 ```
 ---
 
@@ -72,12 +72,6 @@ Simulation uses the Sky130A PDK technology node.
 
 ---
 
-## 🚀 Next Steps
-- Design memory circuits (D flip-flop, D latch) using Xcircuit and Magic
-- Design, build, and test a ring oscillator. Analyze the frequency and the propagation delay of the inverter
-- Apply the layout of logic gates to larger circuits like multiplexers, adders, and ALU's.
-
----
 
 ## 🙌 Closing Notes
 This repo is for students, researchers, and hobbyists learning VLSI using open tools.
