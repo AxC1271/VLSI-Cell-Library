@@ -100,7 +100,6 @@ if we connect the gates and sources of each respective gate then we can form the
 ### 📐 SPICE Netlist
 
 - Includes a PMOS and NMOS transistor.
-- Uses .model definitions for simulation.
 - Simulated using ngspice to observe inverter behavior.
 
 ```spice
@@ -125,6 +124,9 @@ plot v(in) v(out)
 
 .end
 ```
+
+For more information regarding the transistor models, please check `sky130.lib.spice` to see the 
+behavior of their technology node.
 
 ---
 
