@@ -56,15 +56,6 @@ This ensures:
 
 ---
 
-## 🧪 Simulation: Spice Models
-
-Simulation uses the Sky130A PDK technology node.
-
-```spice
-device msubckt sky130_fd_pr__nfet_01v8 0 0 1 1 l=15 w=95 "Gnd" "Vin" 30 0 "Gnd" 95 4750,290 "Vout" 95 4750,290
-device msubckt sky130_fd_pr__pfet_01v8 0 150 1 151 l=15 w=95 "Vdd" "Vin" 30 0 "Vdd" 95 4750,290 "Vout" 95 4750,290
-```
----
 
 ## ✅ Takeaways
 - Learned how to extract parasitics and simulate post-layout
