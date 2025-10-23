@@ -1,14 +1,12 @@
-* SPICE3 file created from inverter_schematic.ext - technology: scmos
-.include ./ami05.txt
-.option scale=0.3u
+* SPICE3 file created from inverter.ext - technology: sky130A
+
+.option scale=10m
 
 Vpower vdd gnd 3.3
 Vin A gnd pulse(0, 3.3, 100p, 50p, 200p, 500p)
 
-M1000 Z A gnd Gnd nfet w=10 l=2
-+  ad=50 pd=30 as=50 ps=30
-M1001 Z A vdd Vdd pfet w=20 l=2
-+  ad=100 pd=50 as=100 ps=50
+X0 Vout Vin Gnd Gnd sky130_fd_pr__nfet_01v8 ad=4.75n pd=0.29m as=4.75n ps=0.29m w=95 l=15
+X1 Vout Vin Vdd Vdd sky130_fd_pr__pfet_01v8 ad=4.75n pd=0.29m as=4.75n ps=0.29m w=95 l=15
 
 .tran 1p 1200p
 .end
