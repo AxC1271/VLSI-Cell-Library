@@ -88,7 +88,7 @@ After making our PMOS and NMOS, we are ready to make our inverter! Based on our 
 if we connect the gates and sources of each respective gate then we can form the inverter.
 
 <div align="center">
-  <img src="./inverter_magic.png" alt="Inverter Layout" width="400"/>
+  <img src="./inverter_vlsilayout.png" alt="Inverter Layout" width="600"/>
 </div>
 
 - Drawn using n-diffusion, p-diffusion, poly, and metal layers.
@@ -102,8 +102,6 @@ if we connect the gates and sources of each respective gate then we can form the
 - Includes a PMOS and NMOS transistor.
 - Uses .model definitions for simulation.
 - Simulated using ngspice to observe inverter behavior.
-
-This project uses a hand-written SPICE netlist based on a layout extracted from Magic, with devices sized in lambda units and simulated with realistic BSIM3 transistor models.
 
 ```spice
 .include ./ami05.txt
