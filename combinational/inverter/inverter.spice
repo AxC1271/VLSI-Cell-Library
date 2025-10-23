@@ -1,12 +1,25 @@
-* SPICE3 file created from inverter.ext - technology: sky130A
 
-.option scale=10m
+* 0.01um = 10nm for proper scaling
+.option scale=0.01u
 
-Vpower vdd gnd 3.3
-Vin A gnd pulse(0, 3.3, 100p, 50p, 200p, 500p)
+* import sky130 models
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
-X0 Vout Vin Gnd Gnd sky130_fd_pr__nfet_01v8 ad=4.75n pd=0.29m as=4.75n ps=0.29m w=95 l=15
+* power supply
+Vdd Vdd 0 3.3
+
+* input pulse
+Vin Vin 0 pulse(0 3.3 100p 50p 50p 500p 1200p)
+
+* transistors from ext2spice
+* connect gnd to node 0 (ground)
+X0 Vout Vin 0 0 sky130_fd_pr__nfet_01v8 ad=4.75n pd=0.29m as=4.75n ps=0.29m w=95 l=15
 X1 Vout Vin Vdd Vdd sky130_fd_pr__pfet_01v8 ad=4.75n pd=0.29m as=4.75n ps=0.29m w=95 l=15
 
-.tran 1p 1200p
+* transient analysis
+.control
+tran 1p 1200p
+plot v(Vin) v(Vout)
+.endc
+
 .end
