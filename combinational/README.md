@@ -50,7 +50,7 @@ This ensures:
 ### Layout (Magic VLSI)
 
 <p align="center">
-  <img src="./inverter/inverter_layout.png" width="600" />
+  <img src="./inverter/inverter_magic.png" width="600" />
 </p>
 <p align="center"><em>Magic VLSI layout (with DRC clean)</em></p>
 
