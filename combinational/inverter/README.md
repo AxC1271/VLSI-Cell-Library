@@ -104,31 +104,27 @@ if we connect the gates and sources of each respective gate then we can form the
 - Simulated using ngspice to observe inverter behavior.
 
 ```spice
-.include ./ami05.txt
-.option scale=0.3u
-.options post
-.probe v(A) v(Z)
+* SPICE3 file created from inverter.ext - technology: sky130A
+.option scale=10000u
 
-Vpower vdd 0 3.3
-Vin A 0 pulse(0 3.3 100p 50p 200p 500p)
+* include Sky130 models
+.lib /usr/Home/EDATools/open_pdks/sky130/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
-M1 Z A 0 0 nfet w=10 l=2
-M2 Z A vdd vdd pfet w=20 l=2
+Vdd vdd 0 3.3
 
-.tran 1p 1200p
+Vin in 0 pulse(0 3.3 100p 50p 50p 500p 1200p)
+
+X0 out in 0 0 sky130_fd_pr__nfet_01v8 ad=4.75e-12 pd=2.9e-7 as=4.75e-12 ps=2.9e-7 w=0.95u l=0.15u
+X1 out in vdd vdd sky130_fd_pr__pfet_01v8 ad=4.75e-12 pd=2.9e-7 as=4.75e-12 ps=2.9e-7 w=0.95u l=0.15u
+
+* transient analysis
+.control
+tran 1p 1200p
+plot v(in) v(out)
+.endc
+
 .end
 ```
-
----
-
-### 🧪 Spice Models
-This simulation uses BSIM3 Level-49 models for a 0.5µm process from the 2002a SCMOS node (ami05.txt). A snippet from the included model file:
-
-```spice
-.model nfet NMOS (LEVEL=49 VTH0=0.71 U0=533 ...)
-.model pfet PMOS (LEVEL=49 VTH0=-0.92 U0=202 ...)
-```
-These models include realistic second-order effects: mobility degradation, velocity saturation, DIBL, etc.
 
 ---
 
