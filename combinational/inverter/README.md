@@ -67,7 +67,7 @@ This complementary behavior ensures low static power and fast switching.
 
 ### Schematic (Xschem)
 <div align="center">
-  <img src="./inverter_schematic.png" alt="Inverter Schematic" width="400"/>
+  <img src="./inverter_schematic.png" alt="Inverter Schematic" width="600"/>
 </div>
 
 Here's a basic schematic of the inverter using Xschem. The TT_Models is there to determine
@@ -81,7 +81,7 @@ First we draw out our N-channel and P-channel MOSFETs while making sure we don't
 meeting a minimum width requirement, the N-well needing to have a minimum size around the P-channel MOSFET, etc.
 
 <div align="center">
-  <img src="./pmos_nmos.png" alt="Basic Transistors" width="400"/>
+  <img src="./pmos_nmos.png" alt="Basic Transistors" width="600"/>
 </div>
 
 After making our PMOS and NMOS, we are ready to make our inverter! Based on our inverter schematic, 
