@@ -88,7 +88,7 @@ After making our PMOS and NMOS, we are ready to make our inverter! Based on our 
 if we connect the gates and sources of each respective gate then we can form the inverter.
 
 <div align="center">
-  <img src="./inverter_layout.png" alt="Inverter Layout" width="400"/>
+  <img src="./inverter_magic.png" alt="Inverter Layout" width="400"/>
 </div>
 
 - Drawn using n-diffusion, p-diffusion, poly, and metal layers.
