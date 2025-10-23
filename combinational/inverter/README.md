@@ -103,23 +103,28 @@ if we connect the gates and sources of each respective gate then we can form the
 - Simulated using ngspice to observe inverter behavior.
 
 ```spice
-* SPICE3 file created from inverter.ext - technology: sky130A
-.option scale=10000u
 
-* include Sky130 models
-.lib /usr/Home/EDATools/open_pdks/sky130/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+* 0.01um = 10nm for proper scaling
+.option scale=0.01u
 
-Vdd vdd 0 3.3
+* import sky130 models
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
-Vin in 0 pulse(0 3.3 100p 50p 50p 500p 1200p)
+* power supply
+Vdd Vdd 0 3.3
 
-X0 out in 0 0 sky130_fd_pr__nfet_01v8 ad=4.75e-12 pd=2.9e-7 as=4.75e-12 ps=2.9e-7 w=0.95u l=0.15u
-X1 out in vdd vdd sky130_fd_pr__pfet_01v8 ad=4.75e-12 pd=2.9e-7 as=4.75e-12 ps=2.9e-7 w=0.95u l=0.15u
+* input pulse
+Vin Vin 0 pulse(0 3.3 100p 50p 50p 500p 1200p)
+
+* transistors from ext2spice
+* connect gnd to node 0 (ground)
+X0 Vout Vin 0 0 sky130_fd_pr__nfet_01v8 ad=4.75n pd=0.29m as=4.75n ps=0.29m w=95 l=15
+X1 Vout Vin Vdd Vdd sky130_fd_pr__pfet_01v8 ad=4.75n pd=0.29m as=4.75n ps=0.29m w=95 l=15
 
 * transient analysis
 .control
 tran 1p 1200p
-plot v(in) v(out)
+plot v(Vin) v(Vout)
 .endc
 
 .end
