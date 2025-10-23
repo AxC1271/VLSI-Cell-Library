@@ -133,7 +133,7 @@ behavior of their technology node.
 ### 📈 Simulation (ngspice)
 
 <div align="center">
-  <img src="./waveform.png" alt="CMOS Inverter Waveform" width="600"/>
+  <img src="./inverter_waveform.png" alt="CMOS Inverter Waveform" width="600"/>
 </div>
 
 The inverter demonstrates standard logic behavior:
