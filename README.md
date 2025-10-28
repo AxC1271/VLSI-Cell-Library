@@ -1,7 +1,4 @@
 # 🏛️ The Cell Museum
-<p align="center">
-  <img src="./CellMuseum.png" height=400px />
-</p>
 
 **Welcome to the museum!** Each "exhibit" is a fully characterized digital cell: from basic logic gates to sequential elements, designed using open-source EDA tools. This project documents my journey learning IC design from the ground up.
 
