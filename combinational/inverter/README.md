@@ -141,7 +141,7 @@ behavior of their technology node.
   <img src="./inverter_waveform.png" alt="CMOS Inverter Waveform" width="600"/>
 </div>
 
-The inverter demonstrates standard logic behavior:
+This simulation is done directly on the extracted netlist from Magic VLSI:
 - Low input → high output
 - High input → low output
 
