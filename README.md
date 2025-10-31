@@ -40,24 +40,6 @@ engineering student at Case, I grew interested in CMOS IC design but felt dishea
 
 ---
 
-## 📊 Documentation
-
-Each cell includes documentation for the following steps:
-
-✅ **Transistor-level schematic** - Clear, annotated diagrams  
-✅ **Optimized layout** - DRC-clean with area efficiency considerations  
-✅ **Layout simulation** - Real-world performance with extracted R/C  
-✅ **DRC verification report** - Zero violations with spacing <br>
-✅ **LVS verification report** - Schematic-layout matching confirmed  
-✅ **Timing characterization** - Measured delays, setup/hold times, power consumption  
-
-## 🔗 Related Projects
-
-- **[RISC-V Processor](https://github.com/AxC1271/RISCV-CPU)** - My 32-bit processor uses these exact building blocks conceptually.
-- **[Clock Crossing](https://github.com/AxC1271/ClockCrossing)** - Educational resource on CDC synchronizers.
-
----
-
 ## 🎫 Getting Started
 
 **Clone the museum:**
