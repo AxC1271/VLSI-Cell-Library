@@ -67,12 +67,11 @@ This complementary behavior ensures low static power and fast switching.
 
 ### Schematic (Xschem)
 <div align="center">
-  <img src="./inverter_schematic.png" alt="Inverter Schematic" width="600"/>
+  <img src="./inverter.png" alt="Inverter Schematic" width="600"/>
 </div>
 
-Here's a basic schematic of the inverter using Xschem. The TT_Models is there to determine
-what kind of simulation will be used to test the inverter. There are other models that perform
-corner analysis but since this is a simple inverter, I decided to use a standard simulation.
+Here's a basic schematic of the inverter using Xschem. The netlist button
+is green, meaning that it's generated and there are no DRC violations.
 
 ---
 
