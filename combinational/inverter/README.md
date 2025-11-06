@@ -77,7 +77,8 @@ is green, meaning that it's generated and there are no DRC violations.
 
 Now we can derive the current SPICE netlist from the schematic and we can drive
 the inputs and outputs using ngspice. We will also need this SPICE netlist later
-to compare with Magic's extraction for LVS.
+to compare with Magic's extraction for LVS. First we will need to drive some wave
+to `Vin` to verify that our schematic works.
 
 ```SPICE
 ** sch_path: /home/parallels/Documents/vlsi_layouts/inverter/xschem/inverter.sch
