@@ -1,4 +1,4 @@
-# 🏛️ The Cell Museum
+# 🏛️ Cell Museum
 
 **Welcome to the museum!** Each "exhibit" is a fully characterized digital cell: from basic logic gates to sequential elements, designed using open-source EDA tools. This project documents my journey learning IC design from the ground up.
 
