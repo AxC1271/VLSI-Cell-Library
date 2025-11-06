@@ -98,7 +98,7 @@ XM2 Vout Vin Vss GND sky130_fd_pr__nfet_01v8_lvt L=0.15 W=1 nf=1 ad=0.29 as=0.29
 Here's my testbench circuit, where I'm driving a simple sinusoidal signal into `Vin`:
 
 <p align="center">
-  <img src="./inverter_testbench.png" />
+  <img src="./inverter_testbench.png" width="600" />
 </p>
 
 ---
