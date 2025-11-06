@@ -79,8 +79,19 @@ Now we can derive the current SPICE netlist from the schematic and we can drive
 the inputs and outputs using ngspice. We will also need this SPICE netlist later
 to compare with Magic's extraction for LVS.
 
-```
-
+```SPICE
+** sch_path: /home/parallels/Documents/vlsi_layouts/inverter/xschem/inverter.sch
+**.subckt inverter Vdd Vin Vout Vss
+*.ipin Vin
+*.opin Vout
+*.ipin Vdd
+*.ipin Vss
+XM1 Vout Vin Vdd VDD sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1 m=1
+XM2 Vout Vin Vss GND sky130_fd_pr__nfet_01v8_lvt L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1 m=1
+**.ends
+.end
 ```
 
 ---
