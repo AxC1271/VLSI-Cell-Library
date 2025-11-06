@@ -73,6 +73,16 @@ This complementary behavior ensures low static power and fast switching.
 Here's a basic schematic of the inverter using Xschem. The netlist button
 is green, meaning that it's generated and there are no DRC violations.
 
+### SPICE simulation 
+
+Now we can derive the current SPICE netlist from the schematic and we can drive
+the inputs and outputs using ngspice. We will also need this SPICE netlist later
+to compare with Magic's extraction for LVS.
+
+```
+
+```
+
 ---
 
 ### 🧱 Layout (Magic VLSI)
